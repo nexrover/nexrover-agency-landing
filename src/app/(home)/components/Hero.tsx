@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -16,18 +15,18 @@ const Hero = () => {
             {/* <!-- hero-list-items --> */}
             <ul className="max-w-[632px] mt-[36px] flex flex-col gap-[22px]">
               <li className="hero-list-item">
-                <Image src="/icons/check-circle-solid-blue.svg" alt="icon" />
+                <img src="/icons/check-circle-solid-blue.svg" alt="icon" />
                 <span>Skilled in product strategy, design, & development</span>
               </li>
               <li className="hero-list-item">
-                <Image src="/icons/check-circle-solid-blue.svg" alt="icon" />
+                <img src="/icons/check-circle-solid-blue.svg" alt="icon" />
                 <span>
                   The smartest possible way to acquire a high-performing
                   distributed team
                 </span>
               </li>
               <li className="hero-list-item">
-                <Image src="/icons/check-circle-solid-blue.svg" alt="icon" />
+                <img src="/icons/check-circle-solid-blue.svg" alt="icon" />
                 <span>
                   Trusted by Founders and Fortune 500 businesses for
                   cost-effective solutions
@@ -46,7 +45,7 @@ const Hero = () => {
           </div>
           {/* <!-- hero right part --> */}
           <div className="max-w-[450px] object-cover object-center">
-            <Image src="/image/hero-team.svg" alt="image" />
+            <img src="/image/hero-team.svg" alt="image" />
           </div>
         </div>
       </div>
