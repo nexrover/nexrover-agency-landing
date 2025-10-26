@@ -11,7 +11,7 @@ const Hero = () => {
           <p className="com-text-light text-center">
             Our Journey in SaaS Development Excellence
           </p>
-          <div className="text-center mt-[64px]">
+          <div className="text-center mt-16">
             <a href="#" type="button" className="com-btn-second">
               Get Started
             </a>
