@@ -12,7 +12,7 @@ const TopNotch = () => {
               Need top notch developers? You’re in the right place.
             </h2>
             <p className="font-primary text-[16px] font-light pt-[24px]">
-              DevSquad helps entrepreneurs build and launch new products and
+              NexRover helps entrepreneurs build and launch new products and
               helps growing companies plug in a ready-to-go dev team and start
               building.
             </p>

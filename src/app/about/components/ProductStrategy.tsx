@@ -11,7 +11,7 @@ const ProductStrategy = () => {
               Where product strategy meets expert execution
             </h2>
             <p className="com-text-light pt-[14px] md:pt-[20px]">
-              DevSquad's high performing product teams build business software,
+              NexRover's high performing product teams build business software,
               consumer apps, and government tools. We offer strategy that is
               always grounded in our experience of taking full ownership of
               every product we touch. You get smart of product planning, fully

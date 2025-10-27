@@ -6,7 +6,7 @@ const WhatMake = () => {
       <div className="container mx-auto">
         <div className="wrapper lg:max-h-[600px] grid grid-cols-1 lg:grid-cols-2 gap-y-[37px] lg:gap-y-[74px] lg:gap-x-[28px] lg:justify-between lg:items-start">
           <div>
-            <h2 className="section-head">What makes DevSquad so different?</h2>
+            <h2 className="section-head">What makes NexRover so different?</h2>
             <p className="section-head-desc pt-[18px]">
               Fully-managed high-performing dev teams. Monthly subscription. Top
               talent. Integrity.

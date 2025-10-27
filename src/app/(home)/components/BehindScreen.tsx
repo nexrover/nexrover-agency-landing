@@ -11,7 +11,7 @@ const BehindScreen = () => {
           </div>
           {/* <!-- right content-article --> */}
           <div className="max-w-[594px] pt-8 lg:pt-0">
-            <h2 className="section-head">You’re going to love your DevSquad</h2>
+            <h2 className="section-head">You’re going to love your NexRover</h2>
             <p className="section-head-desc pt-4">
               Including the people behind the scenes.
             </p>

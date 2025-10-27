@@ -29,7 +29,7 @@ const Founder = () => {
                 In 2011, I moved from Londrina, Brazil to the Salt Lake City
                 Area. For a short time, I served as a lead developer at a great
                 company, but I missed managing a comprehensive team and making
-                important product decisions. I started DevSquad, so I could
+                important product decisions. I started NexRover, so I could
                 bring the experience that I had managing a team and building a
                 successful SaaS business to other entrepreneurs with business
                 ideas that fill a market need.
@@ -69,7 +69,7 @@ const Founder = () => {
             </div>
             <div>
               <p className="com-text pt-[24px]">
-                When you partner with DevSquad, you help me bring more
+                When you partner with NexRover, you help me bring more
                 development work to Latin America, and you get Silicon
                 Valley-style, customer-centric product management.
               </p>

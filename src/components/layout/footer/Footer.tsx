@@ -27,11 +27,11 @@ const Footer = () => {
                 width={16}
                 height={16}
               />
-              <span className="text-white"> +1 801 656 0470</span>
+              <span className="text-white"> +8801834255112</span>
             </p>
             <p className="font-primary text-[16px] leading-[140%] flex justify-start items-center gap-[10px]">
               <Image src="/icons/mail.svg" alt="icon" width={16} height={16} />
-              <span className="text-white"> info@devsquad.com</span>
+              <span className="text-white"> info@nexrover.com</span>
             </p>
           </div>
           {/* <!-- column-2 --> */}

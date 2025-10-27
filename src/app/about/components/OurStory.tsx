@@ -16,7 +16,7 @@ const OurStory = () => {
                 <br />
                 But after hearing tons of product development horror stories and
                 having to rescue or speed up the work of other consulting firms,
-                we decided to scale DevSquad from one to many squads. We began
+                we decided to scale NexRover from one to many squads. We began
                 serving more business leaders and entrepreneurs - always keeping
                 our high-performing team structure and our commitment to fast
                 technology.
