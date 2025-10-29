@@ -1,7 +1,10 @@
+"use client";
+import Modal from "@/components/features/modal/Modal";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section className="bg-[#eaf0f7] py-[40px] md:py-[80px] lg:py-[100px]">
       <div className="container mx-auto">
@@ -41,12 +44,12 @@ const Hero = () => {
             </ul>
             {/* <!-- hero-button --> */}
             <div className="mt-[36px] flex justify-center lg:justify-start">
-              <a
-                href="#"
+              <button
+                onClick={() => setIsModalOpen(!isModalOpen)}
                 className="font-primary font-medium text-[16px] text-white bg-[#2ab398] p-[12px] rounded-xs duration-300 hover:cursor-pointer hover:scale-105 active:scale-95"
               >
                 Get Started
-              </a>
+              </button>
             </div>
           </div>
           {/* <!-- hero right part --> */}
@@ -60,6 +63,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} />}
     </section>
   );
 };

@@ -1,12 +1,7 @@
-import Modal from "@/components/features/modal/Modal";
 import React from "react";
 
 const Test = () => {
-  return (
-    <div>
-      <Modal />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Test;

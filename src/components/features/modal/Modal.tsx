@@ -11,7 +11,7 @@ const Modal = ({
         <div className="">
           {/* <!-- Modal body --> */}
           <div className="absolute inset-0  overflow-y-auto">
-            <div className=" mt-10 mx-auto wrapper p-6 md:p-12 border border-gray-200 rounded-md bg-white max-w-[672px]">
+            <div className=" my-10 mx-auto wrapper p-6 md:p-12 border border-gray-200 rounded-md bg-white max-w-[672px]">
               <div className="content">
                 {/* <!-- head --> */}
                 <div className="flex justify-between items-start">

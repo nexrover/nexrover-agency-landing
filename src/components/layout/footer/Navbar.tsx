@@ -2,38 +2,41 @@
 import Modal from "@/components/features/modal/Modal";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
-
-const navlist = [
-  {
-    id: 1,
-    title: "What we do",
-    link: "/",
-  },
-  {
-    id: 2,
-    title: "How We Work",
-    link: "/",
-  },
-  {
-    id: 3,
-    title: "About Us",
-    link: "about",
-  },
-  {
-    id: 4,
-    title: "Success Stories",
-    link: "/",
-  },
-  {
-    id: 5,
-    title: "Blog",
-    link: "blog",
-  },
-];
 
 export const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const pathname = usePathname();
+  // console.log(pathname);
+
+  const navlist = [
+    {
+      id: 1,
+      title: "What we do",
+      link: "/",
+    },
+    {
+      id: 2,
+      title: "How We Work",
+      link: "/work",
+    },
+    {
+      id: 3,
+      title: "About Us",
+      link: "/about",
+    },
+    {
+      id: 4,
+      title: "Success Stories",
+      link: "/story",
+    },
+    {
+      id: 5,
+      title: "Blog",
+      link: "/blog",
+    },
+  ];
   return (
     <header>
       <nav className="container m-auto">
@@ -55,14 +58,15 @@ export const Navbar = () => {
           >
             <ul className="flex flex-col lg:flex-row justify-between items-center gap-4">
               {navlist.map((item) => (
-                <li className="nav-list" key={item.id}>
-                  <Link
-                    href={item.link}
-                    className=" duration-200 hover:text-gray-700 focus:text-secondary"
-                  >
-                    {item.title}
-                  </Link>
-                </li>
+                <Link
+                  key={item.id}
+                  href={item.link}
+                  className={`font-primary  text-[16px] font-light text-lg  duration-200 hover:text-gray-700  ${
+                    pathname === item.link ? "text-[#47a08a] " : "text-primary"
+                  }`}
+                >
+                  {item.title}
+                </Link>
               ))}
             </ul>
             <div>

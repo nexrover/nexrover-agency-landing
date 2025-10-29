@@ -47,7 +47,7 @@
   @apply font-primary font-light text-[16px];
 }
 .nav-list {
-  @apply font-primary text-primary text-[16px] font-light;
+  @apply font-primary  text-[16px] font-light;
 }
 .hero-list-item {
   @apply flex items-start justify-start gap-7 font-primary text-primary font-extralight text-[16px] leading-[130%];

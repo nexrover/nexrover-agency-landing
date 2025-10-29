@@ -1,6 +1,9 @@
-import React from "react";
+"use client";
+import Modal from "@/components/features/modal/Modal";
+import React, { useState } from "react";
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section className="section-padding bg-bgPrimary">
       <div className="contaner max-w-[770px] mx-auto">
@@ -12,12 +15,17 @@ const Hero = () => {
             Our Journey in SaaS Development Excellence
           </p>
           <div className="text-center mt-16">
-            <a href="#" type="button" className="com-btn-second">
+            <button
+              onClick={() => setIsModalOpen(!isModalOpen)}
+              type="button"
+              className="com-btn-second"
+            >
               Get Started
-            </a>
+            </button>
           </div>
         </div>
       </div>
+      {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} />}
     </section>
   );
 };
