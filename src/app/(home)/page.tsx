@@ -1,3 +1,4 @@
+"use client";
 import Hero from "@/app/(home)/components/Hero";
 import TopNotch from "./components/TopNotch";
 import Talent from "./components/Talent";

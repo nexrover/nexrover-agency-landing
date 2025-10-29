@@ -4,6 +4,7 @@
   --font-primary: "Montserrat", sans-serif;
   --font-second: "Droid Serif";
   --color-primary: #758b9d;
+  --color-secondary: #2ab398;
   --color-sec: #000;
   --color-com: #5f7587;
   --color-head: #1a1a1a;
@@ -13,10 +14,10 @@
 }
 
 .container {
-  @apply px-[24px] md:px-[75px];
+  @apply px-6;
 }
 .section-padding {
-  @apply py-[40px] md:py-[80px] lg:py-[100px];
+  @apply py-10 md:py-20 lg:py-[100px];
 }
 .hero-head {
   @apply font-second font-bold text-[32px] md:text-[50px] lg:text-[72px] text-head text-center;
@@ -49,16 +50,16 @@
   @apply font-primary text-primary text-[16px] font-light;
 }
 .hero-list-item {
-  @apply flex items-start justify-start gap-[28px] font-primary text-primary font-extralight text-[16px] leading-[130%];
+  @apply flex items-start justify-start gap-7 font-primary text-primary font-extralight text-[16px] leading-[130%];
 }
 .footer-col-title {
   @apply font-primary text-[16px] text-white font-bold;
 }
 .footer-col-link {
-  @apply flex flex-col items-start gap-y-[16px] mt-[16px] font-extralight;
+  @apply flex flex-col items-start gap-y-4 mt-4 font-extralight;
 }
 .com-btn-primary {
-  @apply font-primary text-[16px] text-[#2ab398] leading-[24px] bg-white p-4 hover:cursor-pointer active:scale-95 duration-200;
+  @apply font-primary text-[16px] text-[#2ab398] leading-6 bg-white p-4 hover:cursor-pointer active:scale-95 duration-200;
 }
 .com-btn-second {
   @apply font-primary text-[16px] text-white leading-[24px] bg-[#2ab398] p-4 hover:cursor-pointer active:scale-95 duration-200;

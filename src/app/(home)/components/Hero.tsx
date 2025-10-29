@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -13,9 +14,14 @@ const Hero = () => {
               innovative products
             </h1>
             {/* <!-- hero-list-items --> */}
-            <ul className="max-w-[632px] mt-[36px] flex flex-col gap-[22px]">
+            <ul className="max-w-[632px] mt-8 flex flex-col gap-[22px]">
               <li className="hero-list-item">
-                <img src="/icons/check-circle-solid-blue.svg" alt="icon" />
+                <Image
+                  src="/icons/check-circle-solid-blue.svg"
+                  alt="icon"
+                  width={20}
+                  height={20}
+                />
                 <span>Skilled in product strategy, design, & development</span>
               </li>
               <li className="hero-list-item">
@@ -45,7 +51,12 @@ const Hero = () => {
           </div>
           {/* <!-- hero right part --> */}
           <div className="max-w-[450px] object-cover object-center">
-            <img src="/image/hero-team.svg" alt="image" />
+            <Image
+              src="/image/hero-team.svg"
+              alt="image"
+              width={380}
+              height={260}
+            />
           </div>
         </div>
       </div>

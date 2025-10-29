@@ -1,6 +1,8 @@
+"use client";
+import Modal from "@/components/features/modal/Modal";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const navlist = [
   {
@@ -10,22 +12,28 @@ const navlist = [
   },
   {
     id: 2,
-    title: "What we do",
+    title: "How We Work",
     link: "/",
   },
   {
     id: 3,
-    title: "What we do",
-    link: "/",
+    title: "About Us",
+    link: "about",
   },
   {
     id: 4,
-    title: "What we do",
+    title: "Success Stories",
     link: "/",
+  },
+  {
+    id: 5,
+    title: "Blog",
+    link: "blog",
   },
 ];
 
 export const Navbar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <header>
       <nav className="container m-auto">
@@ -37,24 +45,34 @@ export const Navbar = () => {
                 alt="logo"
                 width={110}
                 height={32}
-                className="w-[110px] h-[32px] md:w-[180px] "
+                className="w-[110px] h-8 md:w-[180px] "
               />
             </Link>
           </div>
           <div
             id="nav-list"
-            className="hidden lg:flex flex-col lg:flex-row justify-center items-center gap-[28px] bg-white lg:bg-transparent absolute lg:static top-[56px] left-0 w-full lg:w-auto h-screen lg:h-[56px]"
+            className="hidden lg:flex flex-col lg:flex-row justify-center items-center gap-7 bg-white lg:bg-transparent absolute lg:static top-14 left-0 w-full lg:w-auto h-screen lg:h-14"
           >
-            <ul className="flex flex-col lg:flex-row justify-between items-center gap-[27px]">
-              <li className="nav-list">
-                <Link href="#">What We Do</Link>
-              </li>
+            <ul className="flex flex-col lg:flex-row justify-between items-center gap-4">
+              {navlist.map((item) => (
+                <li className="nav-list" key={item.id}>
+                  <Link
+                    href={item.link}
+                    className=" duration-200 hover:text-gray-700 focus:text-secondary"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
-            <ul>
-              <li className="font-primary font-semibold text-[16px] text-[#47a08a] px-[24px] py-[4px] border-2 border-[#47a08a] hover:cursor-pointer">
-                <a href="#">Get Started</a>
-              </li>
-            </ul>
+            <div>
+              <button
+                onClick={() => setIsModalOpen(!isModalOpen)}
+                className="font-primary font-semibold text-[16px] text-[#47a08a] px-6 py-1 border-2 border-[#47a08a] hover:cursor-pointer hover:bg-[#47a08a] duration-200 hover:text-white"
+              >
+                Get Started
+              </button>
+            </div>
           </div>
           {/* mobile responsive  */}
           <div className="block lg:hidden" id="menuToggle">
@@ -63,12 +81,12 @@ export const Navbar = () => {
               alt="icon"
               width={28}
               height={28}
-              className="w-[28px] h-[28px]"
               id="isActive"
             />
           </div>
         </div>
       </nav>
+      {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} />}
     </header>
   );
 };
