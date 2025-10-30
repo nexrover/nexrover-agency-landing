@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="mt-[36px] flex justify-center lg:justify-start">
               <button
                 onClick={() => setIsModalOpen(!isModalOpen)}
-                className="font-primary font-medium text-[16px] text-white bg-[#2ab398] p-[12px] rounded-xs duration-300 hover:cursor-pointer hover:scale-105 active:scale-95"
+                className="font-primary font-medium text-[16px] text-white bg-[#17D5FF] p-[12px] rounded-xs duration-300 hover:cursor-pointer hover:scale-105 active:scale-95"
               >
                 Get Started
               </button>

@@ -62,7 +62,7 @@ export const Navbar = () => {
                   key={item.id}
                   href={item.link}
                   className={`font-primary  text-[16px] font-light text-lg  duration-200 hover:text-gray-700  ${
-                    pathname === item.link ? "text-[#47a08a] " : "text-primary"
+                    pathname === item.link ? "text-[#27BFE7] " : "text-primary"
                   }`}
                 >
                   {item.title}
@@ -72,7 +72,7 @@ export const Navbar = () => {
             <div>
               <button
                 onClick={() => setIsModalOpen(!isModalOpen)}
-                className="font-primary font-semibold text-[16px] text-[#47a08a] px-6 py-1 border-2 border-[#47a08a] hover:cursor-pointer hover:bg-[#47a08a] duration-200 hover:text-white"
+                className="font-primary font-semibold text-[16px] text-[#27BFE7] px-6 py-1 border-2 border-[#27BFE7] hover:cursor-pointer hover:bg-[#27BFE7] duration-200 hover:text-white"
               >
                 Get Started
               </button>
