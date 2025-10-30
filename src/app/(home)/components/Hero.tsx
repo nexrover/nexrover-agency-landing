@@ -12,7 +12,7 @@ const Hero = () => {
           {/* <!-- hero-left part --> */}
           <div>
             {/* <!-- hero-title --> */}
-            <h1 className="max-w-[600px] font-bold font-second text-[24px] md:text-[32px] lg:text-[50px] leading-[130%] mt-[24px] tracking-[2px] text-center lg:text-left">
+            <h1 className="max-w-[600px] font-bold font-second text-[24px] md:text-[32px] lg:text-[50px] leading-[110%]  mt-[24px] tracking-[2px] text-center lg:text-left">
               Software development for businesses & founders launching
               innovative products
             </h1>

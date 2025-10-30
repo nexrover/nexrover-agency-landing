@@ -7,7 +7,7 @@ const Modal = ({
   return (
     <div>
       {/* MODAL */}
-      <div className="modal_wrapper fixed inset-0 z-50 h-full  bg-black/5  backdrop-blur-sm ">
+      <div className="modal_wrapper fixed inset-0 z-50 h-full  bg-black/50  backdrop-blur-sm ">
         <div className="">
           {/* <!-- Modal body --> */}
           <div className="absolute inset-0  overflow-y-auto">
