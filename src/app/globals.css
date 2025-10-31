@@ -1,67 +1,115 @@
 @import "tailwindcss";
 
-@theme {
-  --font-primary: "Montserrat", sans-serif;
-  --font-second: "Droid Serif";
-  --color-primary: #758b9d;
-  --color-secondary: #2ab398;
-  --color-sec: #000;
-  --color-com: #5f7587;
-  --color-head: #1a1a1a;
-  --color-bgPrimary: #071546;
-  --color-bgSecond: #eaf0f7;
-  --color-bgThird: #1b1b1b;
+:root {
+  --primary: #2abcd3;
+  --secondary: #00379f;
+  --primary-text: #000710;
+  --secondary-text: #334155;
+  --primary-text-dark: #ffffff;
+  --secondary-text-dark: #d3dce2;
+  --primary-grad: #00369f;
+  --secondary-grad: #6432cd;
+  --border: #d3e0ea;
+  --primary-bg: #ffffff;
+  --secondary-bg: #eaf0f7;
+  --dark-bg: #000710;
 }
 
-.container {
-  @apply px-6;
+@theme {
+  --font-primary: "Poppins", sans-serif;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-primary-text: var(--primary-text);
+  --color-secondary-text: var(--secondary-text);
+  --color-primary-text-dark: var(--primary-text-dark);
+  --color-secondary-text-dark: var(--secondary-text-dark);
+  --color-primary-grad: var(--primary-grad);
+  --color-secondary-grad: var(--secondary-grad);
+  --color-border: var(--border);
+  --color-primary-bg: var(--primary-bg);
+  --color-secondary-bg: var(--secondary-bg);
+  --color-dark-bg: var(--dark-bg);
 }
+
+@layer base {
+  body {
+    @apply bg-primary-bg;
+  }
+  .dark body {
+    @apply bg-dark-bg;
+  }
+}
+/* apply font poppin to all */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+button,
+div {
+  @apply font-primary;
+}
+.bg-gradient-radial {
+  @apply bg-radial from-primary/10 via-secondary-grad/10 to-primary/10;
+}
+.bg-gradient {
+  @apply bg-linear-to-r from-secondary via-primary to-secondary;
+}
+.section-bg-gradient {
+  @apply bg-linear-to-r from-secondary to-primary;
+}
+
 .section-padding {
-  @apply py-10 md:py-20 lg:py-[100px];
+  @apply py-5 md:py-7 lg:py-20;
 }
+.container {
+  @apply px-6 md:px-0;
+}
+
+/* common hero title */
 .hero-head {
-  @apply font-second font-bold text-[32px] md:text-[50px] lg:text-[72px] text-head text-center;
+  @apply text-primary-text font-bold text-2xl md:text-4xl lg:text-5xl leading-[120%] mt-0 md:mt-4;
 }
-.hero-head-light {
-  @apply font-second font-bold text-[32px] md:text-[50px] lg:text-[72px] text-white text-center;
+.hero-head-dark {
+  @apply text-primary-text-dark font-bold text-2xl md:text-3xl lg:text-5xl leading-[120%] mt-0 md:mt-4;
 }
+/* common section title */
 .section-head {
-  @apply font-second font-semibold text-[28px] md:text-[45px] text-head text-center lg:text-left;
+  @apply text-primary-text font-bold text-2xl md:text-3xl lg:text-4xl leading-[140%] mt-0 md:mb-4;
 }
-.section-head-light {
-  @apply font-second font-semibold text-[28px] md:text-[45px] text-white text-center lg:text-left;
+.section-head-dark {
+  @apply text-primary-text-dark font-bold text-2xl md:text-3xl lg:text-4xl leading-[140%] mt-0 md:mb-4;
 }
+/* common section description */
 .section-head-desc {
-  @apply font-primary  text-[18px] md:text-[22px] text-head leading-[140%];
+  @apply text-secondary-text md:text-lg mb-4;
 }
-.section-head-desc-light {
-  @apply font-primary font-light text-[18px] md:text-[22px] text-white leading-[140%];
+.section-head-desc-dark {
+  @apply text-secondary-text-dark md:text-lg mb-4;
 }
+/* common text */
 .com-text {
-  @apply font-primary font-medium text-[16px] text-[#5f7587]  tracking-[150%];
+  @apply text-secondary-text text-sm md:text-[16px] leading-7;
 }
-.com-text-light {
-  @apply font-primary font-medium text-[16px] text-white/90  tracking-[150%];
-}
-.dark-screen-pera {
-  @apply font-primary font-light text-[16px];
+.com-text-dark {
+  @apply text-secondary-text-dark text-sm md:text-[16px] leading-7;
 }
 .nav-list {
   @apply font-primary  text-[16px] font-light;
 }
 .hero-list-item {
-  @apply flex items-start justify-start gap-7 font-primary text-primary font-extralight text-[16px] leading-[130%];
+  @apply flex items-center justify-start md:gap-7 gap-3  text-secondary-text font-extralight  leading-[120%];
 }
 .footer-col-title {
-  @apply font-primary text-[16px] text-white font-bold;
+  @apply text-secondary-text-dark font-bold;
 }
 .footer-col-link {
   @apply flex flex-col items-start gap-y-4 mt-4 font-extralight;
 }
-.com-btn-primary {
-  @apply font-primary text-[16px] text-[#2ab398] leading-6 bg-white p-4 hover:cursor-pointer active:scale-95 duration-200;
-}
-.com-btn-second {
-  @apply font-primary text-[16px] text-white leading-[24px] bg-[#2ab398] p-4 hover:cursor-pointer active:scale-95 duration-200;
-}
+
 /* About page */

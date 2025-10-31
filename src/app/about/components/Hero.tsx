@@ -5,20 +5,23 @@ import React, { useState } from "react";
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <section className="section-padding bg-bgPrimary">
+    <section
+      className="section-padding bg-secondary
+    "
+    >
       <div className="contaner max-w-[770px] mx-auto">
         <div className="wrapper px-4 lg:px-0">
-          <h1 className="hero-head-light">
+          <h1 className="hero-head-dark text-center">
             Meet the Architects Behind Your Success
           </h1>
-          <p className="com-text-light text-center">
+          <p className="section-head-desc-dark text-center mt-4">
             Our Journey in SaaS Development Excellence
           </p>
           <div className="text-center mt-16">
             <button
               onClick={() => setIsModalOpen(!isModalOpen)}
               type="button"
-              className="com-btn-second"
+              className="text-primary-text font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-transparent hover:border-2 hover:border-dark-bg  hover:cursor-pointer active:scale-95 duration-200"
             >
               Get Started
             </button>

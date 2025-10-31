@@ -7,14 +7,16 @@ import WhatMake from "./components/WhatMake";
 import LatestArticle from "./components/LatestArticle";
 import BehindScreen from "./components/BehindScreen";
 import Team from "./components/Team";
+import DigitalProduct from "./components/DigitalProduct";
 
 export default function Home() {
   return (
     <main>
       <Hero />
+      <DigitalProduct />
       <TopNotch />
       <Talent />
-      <WhyBest />
+      {/* <WhyBest /> */}
       <WhatMake />
       <LatestArticle />
       <BehindScreen />

@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React from "react";
 
 const BlogTab = () => {
   return (
-    <section>
+    <section className="section-padding">
       <div className="container mx-auto">
         <div className="wrapper">
           {/* <!-- Tabs Container --> */}
@@ -13,10 +14,12 @@ const BlogTab = () => {
                 id="leftArrow"
                 className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300 opacity-0 pointer-events-none"
               >
-                <img
+                <Image
                   src="/icons/left-chevron.png"
                   alt="icon"
-                  className="w-[16px] h-[16px]"
+                  width={16}
+                  height={16}
+                  className="w-4 h-4"
                 />
               </button>
 
@@ -25,10 +28,12 @@ const BlogTab = () => {
                 id="rightArrow"
                 className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300"
               >
-                <img
+                <Image
                   src="/icons/right-arrow.png"
                   alt="icon"
-                  className="w-[16px] h-[16px]"
+                  width={16}
+                  height={16}
+                  className="w-4 h-4"
                 />
               </button>
 
@@ -38,7 +43,7 @@ const BlogTab = () => {
                 className="flex space-x-1 overflow-x-auto pb-2 hide-scrollbar mx-10"
               >
                 <button
-                  className="tab-button flex-shrink-0 px-4 py-2 font-medium rounded-lg bg-blue-500 text-white transition-all duration-300"
+                  className="tab-button flex-shrink-0 px-4 py-2 font-medium rounded-lg bg-secondary text-white transition-all duration-300"
                   data-tab="tab1"
                 >
                   All Blogs
@@ -106,16 +111,21 @@ const BlogTab = () => {
               <div id="tab1" className="tab-content">
                 <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -130,23 +140,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -161,23 +176,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -192,23 +212,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -223,23 +248,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -254,23 +284,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -285,23 +320,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -316,23 +356,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -347,23 +392,28 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
                     </div>
                   </div>
                   {/* <!-- card --> */}
-                  <div className="card flex flex-col gap-3 border-0 rounded-t-[12px] overflow-hidden">
+                  <div className="card flex flex-col gap-3 border-0 rounded-t-xl overflow-hidden">
                     <div>
-                      <img src="/image/blog-card-1.png" alt="card-image" />
+                      <Image
+                        src="/image/blog-card-1.png"
+                        alt="card-image"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="px-[8px] py-[4px] bg-red-400 rounded-full font-primary font-light text-sm text-black">
+                      <p className="px-2 py-1 bg-primary rounded-full font-light text-sm text-primary-text font-medium">
                         Comparison
                       </p>
-                      <div className="w-[2px] h-full bg-gray-300"></div>
-                      <p className="font-primary font-light text-sm text-primary">
+                      <div className="w-0.5 h-full bg-secondary-bg"></div>
+                      <p className="text-sm text-primary font-medium">
                         9 Oct 2025
                       </p>
                     </div>
@@ -378,7 +428,7 @@ const BlogTab = () => {
                     <div>
                       <a
                         href="#"
-                        className="font-primary font-extralight text-violet-400"
+                        className="font-primary font-extralight text-secondary hover:underline"
                       >
                         Read More
                       </a>
@@ -386,8 +436,11 @@ const BlogTab = () => {
                   </div>
                 </div>
                 {/* <!-- button --> */}
-                <div className="mt-[64px] text-center">
-                  <a href="#" className="com-btn-second">
+                <div className="mt-16 text-center">
+                  <a
+                    href="#"
+                    className="font-primary font-medium  md:text-[16px] text-sm text-primary-text-dark bg-gradient md:px-8 px-1 md:py-3 py-1 rounded-lg duration-200 hover:cursor-pointer hover:shadow-xl hover:scale-101 active:scale-95"
+                  >
                     Load More
                   </a>
                 </div>

@@ -40,7 +40,7 @@ export const Navbar = () => {
   return (
     <header>
       <nav className="container m-auto">
-        <div className="wrapper flex justify-between items-center w-full h-[56px]">
+        <div className="wrapper flex justify-between items-center w-full h-14 ">
           <div className="">
             <Link href="/">
               <Image
@@ -48,7 +48,7 @@ export const Navbar = () => {
                 alt="logo"
                 width={110}
                 height={32}
-                className="w-[110px] h-8 md:w-[180px] "
+                className="w-[90px] h-8 md:w-fit  "
               />
             </Link>
           </div>
@@ -56,13 +56,15 @@ export const Navbar = () => {
             id="nav-list"
             className="hidden lg:flex flex-col lg:flex-row justify-center items-center gap-7 bg-white lg:bg-transparent absolute lg:static top-14 left-0 w-full lg:w-auto h-screen lg:h-14"
           >
-            <ul className="flex flex-col lg:flex-row justify-between items-center gap-4">
+            <ul className="flex flex-col lg:flex-row justify-between items-center gap-6">
               {navlist.map((item) => (
                 <Link
                   key={item.id}
                   href={item.link}
-                  className={`font-primary  text-[16px] font-light text-lg  duration-200 hover:text-gray-700  ${
-                    pathname === item.link ? "text-[#27BFE7] " : "text-primary"
+                  className={`text-sm font-medium duration-200 hover:text-secondary  ${
+                    pathname === item.link
+                      ? "text-secondary "
+                      : "text-primary-text"
                   }`}
                 >
                   {item.title}
@@ -72,7 +74,7 @@ export const Navbar = () => {
             <div>
               <button
                 onClick={() => setIsModalOpen(!isModalOpen)}
-                className="font-primary font-semibold text-[16px] text-[#27BFE7] px-6 py-1 border-2 border-[#27BFE7] hover:cursor-pointer hover:bg-[#27BFE7] duration-200 hover:text-white"
+                className="font-semibold  text-primary-text-dark px-6 py-1.5  bg-gradient rounded-md hover:cursor-pointer hover:shadow-lg duration-200 hover:text-primary-text-dark/90"
               >
                 Get Started
               </button>

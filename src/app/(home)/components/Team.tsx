@@ -1,25 +1,26 @@
 "use client";
 import Modal from "@/components/features/modal/Modal";
+import SectionHeading from "@/components/features/SectionHeading";
 import React, { useState } from "react";
 
 const Team = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <section className="bg-[#2ab398] py-[60px] lg:py-[100px]">
-      <div className="w-full h-20 bg-[#2ab398] -skew-y-3"></div>
+    <section className="section-padding section-bg-gradient">
       <div className="container mx-auto">
-        <div className="wrapper max-w-[580px] mx-auto">
-          <h2 className="section-head-light !text-center">
-            Work with the customer-centric team that delivers
-          </h2>
-          <p className="section-head-desc-light pt-8 !text-center">
-            Invaluable agile team management experience. Simplified monthly
-            cost.
-          </p>
+        <div className="wrapper max-w-[880px] mx-auto">
+          <div>
+            <h2 className="hero-head-dark text-center">
+              Work with the customer-centric team that delivers
+            </h2>
+            <p className="section-head-desc-dark text-center mt-4">
+              Invaluable agile team management experience. Simplified monthly
+            </p>
+          </div>
           <div className="text-center w-full mt-16">
             <button
               onClick={() => setIsModalOpen(!isModalOpen)}
-              className="font-primary text-[16px] text-[#2ab398] leading-6 bg-white p-4 hover:cursor-pointer active:scale-95 duration-200"
+              className="text-primary-text font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-transparent hover:border-2 hover:border-dark-bg  hover:cursor-pointer active:scale-95 duration-200"
             >
               Get Started
             </button>

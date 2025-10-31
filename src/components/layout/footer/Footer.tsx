@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#000] py-[40px] md:py-[80px] lg:py-[100px]">
+    <footer className="section-padding bg-dark-bg">
       <div className="container mx-auto">
         <div className="wrapper grid grid-cols-1 lg:grid-cols-[360px_1fr_auto_auto_1fr] justify-content-between items-start gap-5">
           {/* <!-- column-1  --> */}
@@ -14,40 +14,43 @@ const Footer = () => {
                 alt="logo"
                 width={160}
                 height={40}
-                className="w-[160px] h-[40px]"
+                className="w-fit h-10"
               />
             </div>
-            <h4 className="font-primary font-normal text-[24px] leading-[140%] text-white my-[32px]">
+            <h4 className="text-2xl leading-[140%] text-primary-text-dark my-8">
               488 East Winchester St Suite 450, Murray, Utah 84107
             </h4>
-            <p className="font-primary text-[16px] leading-[140%] flex justify-start items-center gap-[10px] mb-[16px]">
+            <p className="leading-[140%] flex justify-start items-center gap-2.5 mb-4">
               <Image
                 src="/icons/phone-in-talk.svg"
                 alt="icon"
                 width={16}
                 height={16}
               />
-              <span className="text-white"> +8801834255112</span>
+              <span className="text-secondary-text-dark"> +8801834255112</span>
             </p>
-            <p className="font-primary text-[16px] leading-[140%] flex justify-start items-center gap-[10px]">
+            <p className="text-secondary-text-dark leading-[140%] flex justify-start items-center gap-2.5">
               <Image src="/icons/mail.svg" alt="icon" width={16} height={16} />
-              <span className="text-white"> info@nexrover.com</span>
+              <span className="text-secondary-text-dark">
+                {" "}
+                info@nexrover.com
+              </span>
             </p>
           </div>
           {/* <!-- column-2 --> */}
           <div>
             <h5 className="footer-col-title">Company</h5>
             <ul className="footer-col-link">
-              <li className="font-primary text-sm text-white">
+              <li className="text-secondary-text-dark text-sm hover:underline">
                 <a href="#">How we work</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">About us</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Success Stories</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Blog</a>
               </li>
             </ul>
@@ -56,10 +59,10 @@ const Footer = () => {
           <div>
             <h5 className="footer-col-title">Engagement Models</h5>
             <ul className="footer-col-link">
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Dedicated Development Squad</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Product Strategy and Design</a>
               </li>
             </ul>
@@ -68,19 +71,19 @@ const Footer = () => {
           <div>
             <h5 className="footer-col-title">Services</h5>
             <ul className="footer-col-link">
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">SaaS App Development</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Mobile App Development</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Web App Development</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Custom Software</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">MVP Development</a>
               </li>
             </ul>
@@ -89,29 +92,29 @@ const Footer = () => {
           <div>
             <h5 className="footer-col-title">Technologies</h5>
             <ul className="footer-col-link">
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Laravel</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Vue js</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Next.js</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">React</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">React Native</a>
               </li>
-              <li className="font-primary text-sm text-white">
+              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Electron</a>
               </li>
             </ul>
           </div>
         </div>
         <div>
-          <p className="font-primary text-sm text-[#758b9d] mt-[32px] pt-[24px] border-t-1 border-[#758b9d]">
+          <p className="text-sm text-secondary-text-dark mt-8 pt-6 border-t border-border">
             © 2025. All rights reserved.
           </p>
         </div>

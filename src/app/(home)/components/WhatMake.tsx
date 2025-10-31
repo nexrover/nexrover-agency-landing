@@ -1,3 +1,4 @@
+import SectionHeading from "@/components/features/SectionHeading";
 import React from "react";
 
 const WhatMake = () => {
@@ -5,20 +6,21 @@ const WhatMake = () => {
     <section className="py-[60px] lg:py-[100px]">
       <div className="container mx-auto">
         <div className="wrapper lg:max-h-[600px] grid grid-cols-1 lg:grid-cols-2 gap-y-[37px] lg:gap-y-[74px] lg:gap-x-[28px] lg:justify-between lg:items-start">
-          <div>
-            <h2 className="section-head">What makes NexRover so different?</h2>
-            <p className="section-head-desc pt-[18px]">
-              Fully-managed high-performing dev teams. Monthly subscription. Top
-              talent. Integrity.
-            </p>
-          </div>
+          {/* section heading */}
+          <SectionHeading
+            head="What makes NexRover so different?"
+            desc=" Fully-managed high-performing dev teams. Monthly subscription. Top
+              talent. Integrity."
+            colorHead="primary-text"
+            colorDesc="secondary-text"
+          />
           {/* <!-- item --> */}
           <div className="lg:order-2">
             <div className="flex items-center gap-3">
-              <p className="w-[32px] h-[32px] bg-[#ffb900] rounded-md font font-primary font-light text-[16px] text-head flex items-center justify-center">
+              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
                 1
               </p>
-              <h3 className="font-second font-bold text-head text-2xl">
+              <h3 className="font-bold text-primary-text text-2xl">
                 Our winning process
               </h3>
             </div>
@@ -33,10 +35,10 @@ const WhatMake = () => {
           {/* <!-- item --> */}
           <div className="lg:order-1">
             <div className="flex items-center gap-3">
-              <p className="w-[32px] h-[32px] bg-[#ffb900] rounded-md font font-primary font-light text-[16px] text-head flex items-center justify-center">
+              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
                 2
               </p>
-              <h3 className="font-second font-bold text-head text-2xl">
+              <h3 className="font-bold text-primary-text text-2xl">
                 We meet client goals
               </h3>
             </div>
@@ -54,10 +56,10 @@ const WhatMake = () => {
           {/* <!-- item --> */}
           <div className="lg:order-3">
             <div className="flex items-center gap-3">
-              <p className="w-[32px] h-[32px] bg-[#ffb900] rounded-md font font-primary font-light text-[16px] text-head flex items-center justify-center">
+              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
                 3
               </p>
-              <h3 className="font-second font-bold text-head text-2xl">
+              <h3 className="font-bold text-primary-text text-2xl">
                 Our experience
               </h3>
             </div>

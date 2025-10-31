@@ -1,18 +1,14 @@
 import type { Metadata } from "next";
-// import { MontSerrat, DroidSerif } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/footer/Navbar";
 import Footer from "@/components/layout/footer/Footer";
 
-// const MontSerrat = Montserrat({
-//   variable: "--font-primary",
-//   subsets: ["latin"],
-// });
-
-// const DroidSerif = Droid_Serif({
-//   variable: "--font-second",
-//   subsets: ["latin"],
-// });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-primary",
+});
 
 export const metadata: Metadata = {
   title: "NexRover",
@@ -26,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` antialiased`}>
+      <body className={`${poppins.variable} font-sans `}>
         <Navbar />
         {children}
         <Footer />
