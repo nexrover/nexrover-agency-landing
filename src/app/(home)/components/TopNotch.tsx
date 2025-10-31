@@ -26,7 +26,7 @@ const TopNotch = () => {
             <div className="item">
               <div>
                 <Image
-                  src="/icons/product_and_design.png"
+                  src="/icons/product_and_design.svg"
                   alt="icon"
                   width={80}
                   height={80}
@@ -57,50 +57,38 @@ const TopNotch = () => {
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <Image
-                      src="/icons/mvp-development.svg"
+                      src="/icons/saas-development.svg"
                       alt="icon"
                       width={29}
                       height={29}
                       className="w-4 h-4 md:w-7 md:h-7"
                     />
                     <span className="text-secondary-text-dark">
-                      MVP Development
+                      SaaS Development
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <Image
-                      src="/icons/mvp-development.svg"
+                      src="/icons/web-app-development.svg"
                       alt="icon"
                       width={29}
                       height={29}
                       className="w-4 h-4 md:w-7 md:h-7"
                     />
                     <span className="text-secondary-text-dark">
-                      MVP Development
+                      Web App Development
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <Image
-                      src="/icons/mvp-development.svg"
+                      src="/icons/mobile-app-development.svg"
                       alt="icon"
                       width={29}
                       height={29}
                       className="w-4 h-4 md:w-7 md:h-7"
                     />
                     <span className="text-secondary-text-dark">
-                      MVP Development
-                    </span>
-                  </div>
-                  <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/mvp-development.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
-                    <span className="text-secondary-text-dark">
-                      MVP Development
+                      Mobile App Development
                     </span>
                   </div>
                 </div>
@@ -110,7 +98,7 @@ const TopNotch = () => {
             <div className="item">
               <div>
                 <Image
-                  src="/icons/engine_with_dash.png"
+                  src="/icons/engine_with_dash.svg"
                   alt="icon"
                   width={80}
                   height={80}
