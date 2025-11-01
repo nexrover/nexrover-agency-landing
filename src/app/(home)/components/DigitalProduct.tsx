@@ -28,13 +28,13 @@ const DigitalProduct = () => {
           <div className="mt-8 flex gap-4">
             <a
               href="#"
-              className="bg-secondary text-primary-text-dark px-6 py-3 rounded-lg font-medium shadow-md hover:opacity-90"
+              className="font-primary font-medium  md:text-[16px] text-sm text-primary-text-dark bg-gradient md:px-8 px-1 md:py-3 py-1 rounded-lg duration-200 hover:cursor-pointer hover:shadow-xl hover:scale-101 active:scale-95"
             >
               Start a Project
             </a>
             <a
               href="#"
-              className="border border-border text-primary-text px-6 py-3 rounded-lg font-medium hover:bg-secondary hover:text-primary-text-dark duration-200"
+              className="border border-border text-primary-text px-6 py-3 rounded-lg font-medium  hover:text-primary-text-dark duration-200  hover:bg-linear-to-r hover:from-secondary hover:via-primary hover:to-secondary"
             >
               Book a Strategy Call
             </a>

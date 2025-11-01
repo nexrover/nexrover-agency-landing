@@ -6,37 +6,37 @@ const Talent = () => {
   const talentItem = [
     {
       id: 1,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 2,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 3,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 4,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 5,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 6,
-      icon: "/icons/telent-1.svg",
+      icon: "/icons/business.blue.svg",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },

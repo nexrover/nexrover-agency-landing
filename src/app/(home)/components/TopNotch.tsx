@@ -6,8 +6,8 @@ const TopNotch = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <div className="wrapper bg-secondary rounded-[30px] p-10 lg:p-20 ">
-          {/* <!-- section haeding --> */}
+        <div className="wrapper rounded-[30px] p-10 lg:p-20 bg-[radial-gradient(circle_at_center,#6F00FF_0%,#2E00F9_50%,#001B44_100%)]">
+          {/* <!-- section heading --> */}
           <SectionHeading
             head={"Need world-class developers? You’re in the right place."}
             desc={
@@ -38,54 +38,63 @@ const TopNotch = () => {
                   Building a new product?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
-                  We'll help you launch fast with the most valuable features first. We’re experts in:
+                  We'll help you launch fast with the most valuable features
+                  first. We’re experts in:
                 </p>
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/mvp-development.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/mvp-development.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-3 h-3 md:w-5 md:h-5 "
+                      />
+                    </div>
                     <span className="text-secondary-text-dark">
                       MVP Development
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/saas-development.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/saas-development.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-3 h-3 md:w-5 md:h-5 "
+                      />
+                    </div>
                     <span className="text-secondary-text-dark">
                       SaaS Development
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/web-app-development.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/web-app-development.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-3 h-3 md:w-5 md:h-5 "
+                      />
+                    </div>
                     <span className="text-secondary-text-dark">
                       Web App Development
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/mobile-app-development.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/mobile-app-development.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-3 h-3 md:w-5 md:h-5 "
+                      />
+                    </div>
                     <span className="text-secondary-text-dark">
                       Mobile App Development
                     </span>
@@ -109,66 +118,69 @@ const TopNotch = () => {
                   Short on developers?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
-                  We’ll boost your team so you can keep moving and hitting your goals. We specialize in:
+                  We’ll boost your team so you can keep moving and hitting your
+                  goals. We specialize in:
                 </p>
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/nodejs-logo.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
-                    <span className="text-secondary-text-dark">
-                      Node.js
-                    </span>
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/nodejs-logo.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-4 h-4 md:w-7 md:h-7"
+                      />
+                    </div>
+                    <span className="text-secondary-text-dark">Node.js</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/laravel-logo.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
-                    <span className="text-secondary-text-dark">
-                      Laravel
-                    </span>
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/laravel-logo.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-4 h-4 md:w-7 md:h-7"
+                      />
+                    </div>
+                    <span className="text-secondary-text-dark">Laravel</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/react-logo.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
-                    <span className="text-secondary-text-dark">
-                      React
-                    </span>
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/react-logo.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-4 h-4 md:w-7 md:h-7"
+                      />
+                    </div>
+                    <span className="text-secondary-text-dark">React</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/flutter-logo.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
-                    <span className="text-secondary-text-dark">
-                      Flutter
-                    </span>
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/flutter-logo.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-4 h-4 md:w-7 md:h-7"
+                      />
+                    </div>
+                    <span className="text-secondary-text-dark">Flutter</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <Image
-                      src="/icons/react-native-logo.svg"
-                      alt="icon"
-                      width={29}
-                      height={29}
-                      className="w-4 h-4 md:w-7 md:h-7"
-                    />
+                    <div className="p-2 bg-white rounded-full">
+                      <Image
+                        src="/icons/react-native-logo.svg"
+                        alt="icon"
+                        width={29}
+                        height={29}
+                        className="w-4 h-4 md:w-7 md:h-7"
+                      />
+                    </div>
                     <span className="text-secondary-text-dark">
                       React Native
                     </span>
