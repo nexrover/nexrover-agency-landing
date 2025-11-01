@@ -54,7 +54,7 @@ export const Navbar = () => {
           </div>
           <div
             id="nav-list"
-            className="hidden lg:flex flex-col lg:flex-row justify-center items-center gap-7 bg-white lg:bg-transparent absolute lg:static top-14 left-0 w-full lg:w-auto h-screen lg:h-14"
+            className="hidden lg:flex flex-col lg:flex-row justify-center items-center gap-7 bg-primary-bg lg:bg-transparent absolute lg:static top-14 left-0 w-full lg:w-auto h-screen lg:h-14"
           >
             <ul className="flex flex-col lg:flex-row justify-between items-center gap-6">
               {navlist.map((item) => (
@@ -71,14 +71,14 @@ export const Navbar = () => {
                 </Link>
               ))}
             </ul>
-            <div>
-              <button
-                onClick={() => setIsModalOpen(!isModalOpen)}
-                className="font-semibold  text-primary-text-dark px-6 py-1.5  bg-gradient rounded-md hover:cursor-pointer hover:shadow-lg duration-200 hover:text-primary-text-dark/90"
-              >
-                Get Started
-              </button>
-            </div>
+          </div>
+          <div className="relative p-0.5 bg-gradient rounded-md">
+            <button
+              onClick={() => setIsModalOpen(!isModalOpen)}
+              className="font-semibold  text-primary-text px-6 py-1.5 bg-primary-bg rounded-md hover:cursor-pointer hover:shadow-lg duration-200 hover:text-primary-text/90 "
+            >
+              Get Started
+            </button>
           </div>
           {/* mobile responsive  */}
           <div className="block lg:hidden" id="menuToggle">
