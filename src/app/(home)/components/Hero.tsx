@@ -8,13 +8,14 @@ const Hero = () => {
   return (
     <section className="bg-secondary-bg section-padding">
       <div className="container mx-auto">
-        <div className="wrapper flex flex-col-reverse lg:flex-row justify-between items-center lg:gap-10">
+        <div className="wrapper flex flex-col-reverse lg:flex-row justify-between items-center">
           {/* <!-- hero-left part --> */}
           <div className="lg:w-7/12 w-auto">
             {/* <!-- hero-title --> */}
-            <h1 className="max-w-[580px] hero-head text-center lg:text-left">
-              Software development for businesses & founders launching
-              innovative products
+            <h1 className="max-w-[650px] hero-head text-center lg:text-left">
+              Building software
+              <br />
+               for businesses & founders shaping the future
             </h1>
             {/* <!-- hero-list-items --> */}
             <ul className="max-w-[600px] mt-8 flex flex-col gap-4">
@@ -26,7 +27,7 @@ const Hero = () => {
                   height={20}
                   className="lg:w-4 lg:h-4 w-3 h-3"
                 />
-                <span>Skilled in product strategy, design, & development</span>
+                <span>End-to-end product strategy, design & development</span>
               </li>
               <li className="hero-list-item">
                 <Image
@@ -37,8 +38,7 @@ const Hero = () => {
                   className="lg:w-4 lg:h-4 w-3 h-3"
                 />
                 <span>
-                  The smartest possible way to acquire a high-performing
-                  distributed team
+                  High-performing distributed engineering team
                 </span>
               </li>
               <li className="hero-list-item">
@@ -50,8 +50,7 @@ const Hero = () => {
                   className="lg:w-4 lg:h-4 w-3 h-3"
                 />
                 <span>
-                  Trusted by Founders and Fortune 500 businesses for
-                  cost-effective solutions
+                  Trusted by innovative startups and global enterprises
                 </span>
               </li>
             </ul>
