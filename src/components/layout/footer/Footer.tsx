@@ -18,7 +18,7 @@ const Footer = () => {
               />
             </div>
             <h4 className="text-2xl leading-[140%] text-primary-text-dark my-8">
-              488 East Winchester St Suite 450, Murray, Utah 84107
+              Chattogram, Bangladesh
             </h4>
             <p className="leading-[140%] flex justify-start items-center gap-2.5 mb-4">
               <Image

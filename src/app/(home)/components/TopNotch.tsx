@@ -10,9 +10,9 @@ const TopNotch = () => {
         <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v6">
           {/* <!-- section haeding --> */}
           <SectionHeading
-            head={" Need top notch developers? You’re in the right place."}
+            head={"Need world-class developers? You’re in the right place."}
             desc={
-              "NexRover helps entrepreneurs build and launch new products and helps growing companies plug in a ready-to-go dev team and start building."
+              "NexRover helps entrepreneurs build products from scratch and support growing companies with a ready-to-go dev team that can jump in right away."
             }
             maxWidthHead="550px"
             maxWidthDecs="800px"
@@ -39,8 +39,8 @@ const TopNotch = () => {
                   Building a new product?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
-                  We’ll help you release the smallest product with the biggest
-                  value. We specialize in:
+                  We'll help you launch fast with the most valuable features
+                  first. We’re experts in:
                 </p>
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
@@ -116,82 +116,74 @@ const TopNotch = () => {
               </div>
               <div className="text-left pt-6">
                 <h3 className="text-primary-text-dark font-bold text-[28px] leading-[130%]">
-                  Building a new product?
+                  Short on developers?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
-                  We’ll help you release the smallest product with the biggest
-                  value. We specialize in:
+                  We’ll boost your team so you can keep moving and hitting your
+                  goals. We specialize in:
                 </p>
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 bg-white rounded-full">
                       <Image
-                        src="/icons/mvp-development.svg"
+                        src="/icons/nodejs-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
-                        className="w-3 h-3 md:w-5 md:h-5 "
+                        className="w-4 h-4 md:w-7 md:h-7"
                       />
                     </div>
-                    <span className="text-secondary-text-dark">
-                      MVP Development
-                    </span>
+                    <span className="text-secondary-text-dark">Node.js</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 bg-white rounded-full">
                       <Image
-                        src="/icons/mvp-development.svg"
+                        src="/icons/laravel-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
-                        className="w-3 h-3 md:w-5 md:h-5 "
+                        className="w-4 h-4 md:w-7 md:h-7"
                       />
                     </div>
-                    <span className="text-secondary-text-dark">
-                      MVP Development
-                    </span>
+                    <span className="text-secondary-text-dark">Laravel</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 bg-white rounded-full">
                       <Image
-                        src="/icons/mvp-development.svg"
+                        src="/icons/react-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
-                        className="w-3 h-3 md:w-5 md:h-5 "
+                        className="w-4 h-4 md:w-7 md:h-7"
                       />
                     </div>
-                    <span className="text-secondary-text-dark">
-                      MVP Development
-                    </span>
+                    <span className="text-secondary-text-dark">React</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 bg-white rounded-full">
                       <Image
-                        src="/icons/mvp-development.svg"
+                        src="/icons/flutter-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
-                        className="w-3 h-3 md:w-5 md:h-5 "
+                        className="w-4 h-4 md:w-7 md:h-7"
                       />
                     </div>
-                    <span className="text-secondary-text-dark">
-                      MVP Development
-                    </span>
+                    <span className="text-secondary-text-dark">Flutter</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 bg-white rounded-full">
                       <Image
-                        src="/icons/mvp-development.svg"
+                        src="/icons/react-native-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
-                        className="w-3 h-3 md:w-5 md:h-5 "
+                        className="w-4 h-4 md:w-7 md:h-7"
                       />
                     </div>
                     <span className="text-secondary-text-dark">
-                      MVP Development
+                      React Native
                     </span>
                   </div>
                 </div>
