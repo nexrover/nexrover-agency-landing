@@ -6,7 +6,8 @@ const TopNotch = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <div className="wrapper rounded-[30px] p-10 lg:p-20 bg-[radial-gradient(circle_at_center,#6F00FF_0%,#2E00F9_50%,#001B44_100%)]">
+        {/* gradient card wrapper */}
+        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v6">
           {/* <!-- section haeding --> */}
           <SectionHeading
             head={" Need top notch developers? You’re in the right place."}

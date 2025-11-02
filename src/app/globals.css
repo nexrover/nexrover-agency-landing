@@ -112,4 +112,22 @@ div {
   @apply flex flex-col items-start gap-y-4 mt-4 font-extralight;
 }
 
-/* About page */
+/* Gradient version */
+.grad-v1 {
+  @apply bg-[radial-gradient(circle_at_center,#6F00FF_0%,#2E00F9_50%,#001B44_100%)];
+}
+.grad-v2 {
+  @apply bg-[radial-gradient(circle_at_center,#003CFF_0%,#002266_50%,#000E33_100%)];
+}
+.grad-v3 {
+  @apply bg-[radial-gradient(circle_at_center,#0A5BFF_0%,#002A99_40%,#001B66_100%)];
+}
+.grad-v4 {
+  @apply bg-[radial-gradient(circle_at_center,#0074D9_0%,#0A2472_60%,#001F3F_100%)];
+}
+.grad-v5 {
+  @apply bg-[radial-gradient(circle_at_bottom_right,#00C6FF_0%,#0057FF_40%,#00144D_100%)];
+}
+.grad-v6 {
+  @apply bg-[radial-gradient(circle_at_bottom_right,#00F0FF_0%,#5C6FFF_35%,#6F00FF_70%,#001133_100%)];
+}

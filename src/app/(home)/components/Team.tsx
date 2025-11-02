@@ -1,6 +1,5 @@
 "use client";
-import Modal from "@/components/features/modal/Modal";
-import SectionHeading from "@/components/features/SectionHeading";
+import Modal from "@/components/ui/modal/Modal";
 import React, { useState } from "react";
 
 const Team = () => {

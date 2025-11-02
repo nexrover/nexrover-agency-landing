@@ -1,5 +1,5 @@
 "use client";
-import Modal from "@/components/features/modal/Modal";
+import Modal from "@/components/ui/modal/Modal";
 import React, { useState } from "react";
 
 const Hero = () => {
