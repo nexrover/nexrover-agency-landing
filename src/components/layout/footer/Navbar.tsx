@@ -26,16 +26,16 @@ export const Navbar = () => {
       title: "About Us",
       link: "/about",
     },
-    {
-      id: 4,
-      title: "Success Stories",
-      link: "/story",
-    },
-    {
-      id: 5,
-      title: "Blog",
-      link: "/blog",
-    },
+    // {
+    //   id: 4,
+    //   title: "Success Stories",
+    //   link: "/story",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Blog",
+    //   link: "/blog",
+    // },
   ];
   return (
     <header className="fixed inset-0 container mx-auto top-4  bg-nav-bg w-full h-20 rounded-2xl flex flex-col justify-center border border-nav-border z-50 ">
