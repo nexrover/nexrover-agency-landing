@@ -6,37 +6,37 @@ const Talent = () => {
   const talentItem = [
     {
       id: 1,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/pc.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 2,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/icons-pc-.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 3,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/icons-pc-.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 4,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/icons-pc-.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 5,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/icons-pc-.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
     {
       id: 6,
-      icon: "/icons/business.blue.svg",
+      icon: "/icons/icons-pc-.png",
       title: "2-6 Full Stack Developers",
       desc: "with 4+ years experience, working exclusively on your product.",
     },
@@ -65,8 +65,14 @@ const Talent = () => {
                 key={item.id}
                 className="max-w-[370px] flex flex-col items-start"
               >
-                <div>
-                  <Image src={item.icon} alt="icon" width={60} height={60} />
+                <div className="md:w-12 md:h-12 bg-primary rounded-full flex items-center justify-center">
+                  <Image
+                    src={item.icon}
+                    alt="icon"
+                    width={60}
+                    height={60}
+                    className="w-3 h-3 md:w-8 md:h-8"
+                  />
                 </div>
                 <h4 className="font-semibold text-2xl text-primary-text mt-8 mb-4">
                   {item.title}

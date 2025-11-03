@@ -6,10 +6,10 @@ const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section
-      className="section-padding bg-secondary
+      className="section-padding section-bg-gradient
     "
     >
-      <div className="contaner max-w-[770px] mx-auto">
+      <div className="contaner max-w-[770px] mx-auto mt-[100px]">
         <div className="wrapper px-4 lg:px-0">
           <h1 className="hero-head-dark text-center">
             Meet the Architects Behind Your Success

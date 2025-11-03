@@ -7,7 +7,7 @@ const TopNotch = () => {
     <section className="section-padding">
       <div className="container mx-auto">
         {/* gradient card wrapper */}
-        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v6">
+        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v4">
           {/* <!-- section haeding --> */}
           <SectionHeading
             head={"Need world-class developers? You’re in the right place."}
@@ -25,7 +25,7 @@ const TopNotch = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 gap-y-8 lg:gap-10">
             {/* <!-- item-1 --> */}
             <div className="item">
-              <div>
+              <div className="bg-red-500 rounded-full w-28 h-28 flex items-center justify-center">
                 <Image
                   src="/icons/product_and_design.svg"
                   alt="icon"
@@ -39,13 +39,13 @@ const TopNotch = () => {
                   Building a new product?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
-                  We'll help you launch fast with the most valuable features
-                  first. We’re experts in:
+                  We&apos;ll help you launch fast with the most valuable
+                  features first. We’re experts in:
                 </p>
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/mvp-development.svg"
                         alt="icon"
@@ -59,7 +59,7 @@ const TopNotch = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/saas-development.svg"
                         alt="icon"
@@ -73,7 +73,7 @@ const TopNotch = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/web-app-development.svg"
                         alt="icon"
@@ -87,7 +87,7 @@ const TopNotch = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/mobile-app-development.svg"
                         alt="icon"
@@ -105,7 +105,7 @@ const TopNotch = () => {
             </div>
             {/* <!-- item-2 --> */}
             <div className="item">
-              <div>
+              <div className="bg-amber-400 rounded-full w-28 h-28 flex items-center justify-center">
                 <Image
                   src="/icons/engine_with_dash.svg"
                   alt="icon"
@@ -125,7 +125,7 @@ const TopNotch = () => {
                 {/* <!-- lists --> */}
                 <div className="flex items-center pt-6 flex-wrap gap-4">
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2  rounded-full">
                       <Image
                         src="/icons/nodejs-logo.svg"
                         alt="icon"
@@ -137,7 +137,7 @@ const TopNotch = () => {
                     <span className="text-secondary-text-dark">Node.js</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/laravel-logo.svg"
                         alt="icon"
@@ -149,7 +149,7 @@ const TopNotch = () => {
                     <span className="text-secondary-text-dark">Laravel</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
                         src="/icons/react-logo.svg"
                         alt="icon"
@@ -161,7 +161,7 @@ const TopNotch = () => {
                     <span className="text-secondary-text-dark">React</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2  rounded-full">
                       <Image
                         src="/icons/flutter-logo.svg"
                         alt="icon"
@@ -173,9 +173,9 @@ const TopNotch = () => {
                     <span className="text-secondary-text-dark">Flutter</span>
                   </div>
                   <div className="flex items-center justify-start gap-2">
-                    <div className="p-2 bg-white rounded-full">
+                    <div className="p-2 rounded-full">
                       <Image
-                        src="/icons/react-native-logo.svg"
+                        src="/icons/icons8-react-24.png"
                         alt="icon"
                         width={29}
                         height={29}

@@ -2,7 +2,7 @@
 
 :root {
   --primary: #25badb;
-  --secondary: #205A9F;
+  --secondary: #205a9f;
   --primary-text: #0c0c0c;
   --secondary-text: #334155;
   --primary-text-dark: #ffffff;
@@ -12,6 +12,10 @@
   --border: #d3e0ea;
   --primary-bg: #ffffff;
   --secondary-bg: #eaf0f7;
+  --nav-bg: #f3fdff;
+  --nav-border: #d7f9ff;
+  --nav-text: #8b999c;
+  --nav-btn: #325a61;
   --dark-bg: #000710;
 }
 
@@ -28,6 +32,10 @@
   --color-border: var(--border);
   --color-primary-bg: var(--primary-bg);
   --color-secondary-bg: var(--secondary-bg);
+  --color-nav-bg: var(--nav-bg);
+  --color-nav-border: var(--nav-border);
+  --color-nav-text: var(--nav-text);
+  --color-nav-btn: var(--nav-btn);
   --color-dark-bg: var(--dark-bg);
 }
 
