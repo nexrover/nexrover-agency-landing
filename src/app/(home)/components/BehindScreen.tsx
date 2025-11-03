@@ -21,28 +21,28 @@ const BehindScreen = () => {
           <div className="max-w-[590px] pt-8 lg:pt-0">
             {/* section heading */}
             <SectionHeading
-              head="You’re going to love your NexRover"
-              desc="Including the people behind the scenes."
+              head="You’ll love working with NexRover"
+              desc="…and the talented team making it happen behind the scenes."
               colorHead="primary-text"
               colorDesc="seconday-text"
             />
             <ul className="flex flex-col gap-4 pt-4 md:gap-8 md:pt-8">
               <li className="flex items-center gap-3">
                 <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Tell us about your product</p>
+                <p className="com-text">Share your product idea with us</p>
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Kick things off with a prototype</p>
+                <p className="com-text">Launch with a prototype first</p>
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Make changes before we build</p>
+                <p className="com-text">Make adjustments before we build</p>
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
                 <p className="com-text">
-                  Get the exact product your users need
+                  Deliver the product your users actually want
                 </p>
               </li>
             </ul>

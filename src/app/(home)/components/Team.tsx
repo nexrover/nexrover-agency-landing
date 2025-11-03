@@ -10,10 +10,10 @@ const Team = () => {
         <div className="wrapper max-w-[880px] mx-auto">
           <div>
             <h2 className="hero-head-dark text-center">
-              Work with the customer-centric team that delivers
+              Partner with a product-driven team committed to your success
             </h2>
             <p className="section-head-desc-dark text-center mt-4">
-              Invaluable agile team management experience. Simplified monthly
+              Enjoy world-class agile execution with a straightforward monthly subscription
             </p>
           </div>
           <div className="text-center w-full mt-16">
