@@ -12,7 +12,7 @@ const OurStory = () => {
               <h2 className="section-head">Our story</h2>
               <p className="com-text pt-4">
                 After exiting our own SaaS, we built what was supposed to be a
-                small dev shop serving the local Salt Lake City market.
+                small dev shop serving the local Chattogram market.
               </p>
               <p className="com-text pt-2">
                 But after hearing tons of product development horror stories and
@@ -26,8 +26,8 @@ const OurStory = () => {
             <div>
               <h2 className="section-head">About us</h2>
               <p className="com-text pt-4">
-                With offices in the United States and Brazil, we&apos;ve grown
-                to over 100 people working together on cross-functional teams of
+                With office in the Chattogram, Bangladesh, we&apos;ve grown
+                to over 10 people working together on cross-functional teams of
                 managers, UX designers, developers, DevOps, engineers and QA
                 engineers. We&apos;ve continued to win better and better talent
                 and refine our expertise.
