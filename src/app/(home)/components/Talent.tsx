@@ -6,39 +6,45 @@ const Talent = () => {
   const talentItem = [
     {
       id: 1,
-      icon: "/icons/pc.png",
+      icon: "/icons/full-stack-developer.svg",
+      altText: "full stack developer icon",
       title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      desc: "Experienced engineers (4+ years) dedicated only to your product.",
     },
     {
       id: 2,
-      icon: "/icons/icons-pc-.png",
-      title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      icon: "/icons/product-manager.svg",
+      altText: "product manager icon",
+      title: "Product Manager",
+      desc: "Makes sure the team ships on time and stays aligned with your vision.",
     },
     {
       id: 3,
-      icon: "/icons/icons-pc-.png",
-      title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      icon: "/icons/ux-ui-designer.svg",
+      altText: "ux ui designer icon",
+      title: "UX/UI Designer",
+      desc: "Ensures your product looks great and is easy to use.",
     },
     {
       id: 4,
-      icon: "/icons/icons-pc-.png",
-      title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      icon: "/icons/vp-level-oversight.svg",
+      altText: "vp level oversight icon",
+      title: "VP-level Oversight",
+      desc: "Senior leadership support so your PM and devs stay on track and perform at their best.",
     },
     {
       id: 5,
-      icon: "/icons/icons-pc-.png",
-      title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      icon: "/icons/qa-team.svg",
+      altText: "qa team icon",
+      title: "QA Team",
+      desc: "Manual + automated testing to keep quality high at every release.",
     },
     {
       id: 6,
-      icon: "/icons/icons-pc-.png",
-      title: "2-6 Full Stack Developers",
-      desc: "with 4+ years experience, working exclusively on your product.",
+      icon: "/icons/devops-team.svg",
+      altText: "devops team icon",
+      title: "DevOps Team",
+      desc: "Handles infrastructure, scaling, and security so everything runs smoothly.",
     },
   ];
 
@@ -48,7 +54,7 @@ const Talent = () => {
         <div className="wrapper">
           {/* <!-- section-title --> */}
           <SectionHeading
-            head="Talent is the difference between good and great products"
+            head="Behind every great product is an incredible team"
             desc="Get elite software developers on demand — plus every resource your
               squad needs to make your product successful."
             colorHead="primary-text"
@@ -68,7 +74,7 @@ const Talent = () => {
                 <div className="md:w-12 md:h-12 bg-primary rounded-full flex items-center justify-center">
                   <Image
                     src={item.icon}
-                    alt="icon"
+                    alt={item.altText}
                     width={60}
                     height={60}
                     className="w-3 h-3 md:w-8 md:h-8"

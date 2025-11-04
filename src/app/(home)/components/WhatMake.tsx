@@ -8,9 +8,8 @@ const WhatMake = () => {
         <div className="wrapper lg:max-h-[600px] grid grid-cols-1 lg:grid-cols-2 gap-y-[37px] lg:gap-y-[74px] lg:gap-x-[28px] lg:justify-between lg:items-start">
           {/* section heading */}
           <SectionHeading
-            head="What makes NexRover so different?"
-            desc=" Fully-managed high-performing dev teams. Monthly subscription. Top
-              talent. Integrity."
+            head="What makes NexRover different?"
+            desc="Fully-managed high-performing dev teams. Simple monthly subscription. Top-tier talent. Real integrity."
             colorHead="primary-text"
             colorDesc="secondary-text"
           />
@@ -25,11 +24,12 @@ const WhatMake = () => {
               </h3>
             </div>
             <p className="com-text pt-4">
-              We have a winning process based on how the world’s smartest
-              product teams are run. This takes the hassle of management off
-              your shoulders while simultaneously making us faster (and
-              therefore more affordable) than any other software development
-              shop you’ve encountered.
+              We follow a proven product-building framework inspired by the
+              world’s best tech teams. Our process removes the stress of
+              managing developers and keeps your project moving fast — which
+              means <b>better results, lower costs, and faster launch time</b> than
+              traditional agencies or freelancers. You get a smooth, structured
+              experience — while we handle everything.
             </p>
           </div>
           {/* <!-- item --> */}
@@ -39,18 +39,17 @@ const WhatMake = () => {
                 2
               </p>
               <h3 className="font-bold text-primary-text text-2xl">
-                We meet client goals
+                We focus on your goals
               </h3>
             </div>
             <p className="com-text pt-4">
-              We build SaaS products, mobile apps, web apps, internal-use
-              platforms and more. With any product, our number one goal is to
-              help our clients meet their own business goals and to satisfy
-              their customer’s demands. We know that when we do our best work,
-              we’re rewarded with repeat business and referrals. We understand
-              that without management and aligned business strategy, developers
-              can’t meet goals or demands. We know how to manage high performing
-              dev teams and we do it
+              Whether it’s a SaaS product, mobile app, web platform, or internal
+              tool — our top priority is helping you achieve your business goals
+              and delight your users. We know great products need more than just
+              developers — they need strategy, clarity, and strong project
+              leadership. We align your vision with our execution so your
+              product succeeds and keeps growing. When you win, we win — and
+              that’s why our clients stay with us and recommend us.
             </p>
           </div>
           {/* <!-- item --> */}
@@ -60,15 +59,15 @@ const WhatMake = () => {
                 3
               </p>
               <h3 className="font-bold text-primary-text text-2xl">
-                Our experience
+                Proven experience
               </h3>
             </div>
             <p className="com-text pt-4">
-              We’ve been in business since 2014. The majority of our business
-              today comes from repeat clients building new products, and from
-              referrals. Our commitment to building only what needs to be built
-              — and doing so with complete skill and professionalism — keeps our
-              clients.
+              We’ve been building products since 2014, and most of our work
+              today comes from returning clients and referrals. Our philosophy
+              is simple: <b>build only what matters — build it well — and deliver
+              with professionalism</b>. That focus on real value, efficiency, and
+              quality is the reason our clients trust us long-term.
             </p>
           </div>
         </div>

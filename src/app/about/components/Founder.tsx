@@ -11,9 +11,9 @@ const Founder = () => {
             {/* <!-- title part --> */}
             <div>
               <h2 className="section-head">A note from our founder,</h2>
-              <h2 className="section-head !-mt-3">Phil Alves</h2>
+              <h2 className="section-head !-mt-3">Pervez Ali</h2>
               <h4 className="section-head-desc pt-5">
-                Providing Latin American developers with great income and
+                Providing Bangladeshi developers with great income and
                 opportunity.
               </h4>
             </div>
@@ -23,12 +23,11 @@ const Founder = () => {
                 <p className="com-text">
                   In my late teens and early twenties I turned my SaaS product
                   into the widest used Direct Sales CRM software in the
-                  Brazilian market and then sold it in 2010.{" "}
+                  Bangladeshi market and then sold it in 2020.{" "}
                 </p>
                 <p className="com-text pt-5">
                   {" "}
-                  In 2011, I moved from Londrina, Brazil to the Salt Lake City
-                  Area. For a short time, I served as a lead developer at a
+                  In 2022, I moved from Chattogram, Bangladesh to the Sylhet City. For a short time, I served as a lead developer at a
                   great company, but I missed managing a comprehensive team and
                   making important product decisions. I started NexRover, so I
                   could bring the experience that I had managing a team and
@@ -48,16 +47,16 @@ const Founder = () => {
                   organizations as well as our own use cases.{" "}
                 </p>
                 <p className="com-text pt-5">
-                  Throughout it all, we’ve relied on top-notch talent in Brazil
-                  and other parts of Latin America to work alongside our product
+                  Throughout it all, we’ve relied on top-notch talent in Bangladesh
+                  and other parts of Chattogram to work alongside our product
                   strategists in our US office.{" "}
                 </p>
                 <p className="com-text pt-5">
                   For me, it’s significant to bring opportunity back to my home
                   country. Our clients respect this as well. It’s really the
-                  best of both worlds. You can come and visit us in Utah. And
+                  best of both worlds. You can come and visit us in Chattogram. And
                   you can rest assured that we’re finding the best talent in
-                  Latin America. Every developer works on our own internal
+                  Bangladesh. Every developer works on our own internal
                   projects for 1 – 3 months before they ever touch client work.
                   That’s the real-life vetting or testing process that we stand
                   by.
@@ -69,7 +68,7 @@ const Founder = () => {
           <div>
             <div>
               <Image
-                src="/image/phil-alves-2.webp"
+                src="/image/phil-alves-.webp"
                 alt="image"
                 width={400}
                 height={400}

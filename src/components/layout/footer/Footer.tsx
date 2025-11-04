@@ -47,12 +47,12 @@ const Footer = () => {
               <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">About us</a>
               </li>
-              <li className="text-sm text-secondary-text-dark hover:underline">
+              {/* <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Success Stories</a>
-              </li>
-              <li className="text-sm text-secondary-text-dark hover:underline">
+              </li> */}
+              {/* <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Blog</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* <!-- column-3 --> */}
@@ -96,19 +96,16 @@ const Footer = () => {
                 <a href="#">Laravel</a>
               </li>
               <li className="text-sm text-secondary-text-dark hover:underline">
-                <a href="#">Vue js</a>
-              </li>
-              <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Next.js</a>
               </li>
               <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">React</a>
               </li>
               <li className="text-sm text-secondary-text-dark hover:underline">
-                <a href="#">React Native</a>
+                <a href="#">Flutter</a>
               </li>
               <li className="text-sm text-secondary-text-dark hover:underline">
-                <a href="#">Electron</a>
+                <a href="#">React Native</a>
               </li>
             </ul>
           </div>

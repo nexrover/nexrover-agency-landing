@@ -17,7 +17,7 @@ export default function Home() {
       <Talent />
       {/* <WhyBest /> */}
       <WhatMake />
-      <LatestArticle />
+      {/* <LatestArticle /> */}
       <BehindScreen />
       <Team />
     </main>

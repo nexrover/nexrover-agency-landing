@@ -94,7 +94,7 @@ const Modal = ({
                   </div>
 
                   <div className="py-5">
-                    <h5>What can DevSquad do for you?*</h5>
+                    <h5>What can NexRover do for you?*</h5>
                     {/* <!-- radio items --> */}
                     <div className="flex flex-col gap-3 mt-1">
                       <label
@@ -199,7 +199,7 @@ const Modal = ({
                       htmlFor="company_name"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span> How did you hear about DevSquad? </span>
+                      <span> How did you hear about NexRover? </span>
                       <input
                         type="text"
                         className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"

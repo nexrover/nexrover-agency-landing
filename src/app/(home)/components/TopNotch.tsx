@@ -175,7 +175,7 @@ const TopNotch = () => {
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 rounded-full">
                       <Image
-                        src="/icons/icons8-react-24.png"
+                        src="/icons/react-native-logo.svg"
                         alt="icon"
                         width={29}
                         height={29}
