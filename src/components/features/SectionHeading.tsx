@@ -2,7 +2,7 @@ import React from "react";
 
 interface SectionHeading {
   head: string;
-  desc: string;
+  desc?: string;
   maxWidthHead?: string;
   maxWidthDecs?: string;
   colorHead?: string;
@@ -22,14 +22,14 @@ const SectionHeading: React.FC<SectionHeading> = ({
   textAlign,
 }) => {
   return (
-    <div>
+    <div className="">
       <h2
-        className={`max-w-[${maxWidthHead}] mx-${contAlign} text-${colorHead} text-${textAlign} font-bold text-2xl md:text-3xl lg:text-4xl leading-[140%] mt-0 md:mb-4`}
+        className={`max-w-[${maxWidthHead}] mx-${contAlign} text-${colorHead} text-${textAlign} font-bold text-2xl md:text-3xl lg:text-5xl leading-[140%] mt-0 md:mb-4`}
       >
         {head}
       </h2>
       <p
-        className={`max-w-[${maxWidthDecs}] mx-${contAlign} text-${colorDesc} text-${textAlign} md:text-lg mb-4`}
+        className={` max-w-[${maxWidthDecs}] mx-${contAlign} text-${colorDesc} text-${textAlign} md:text-lg mb-4`}
       >
         {desc}
       </p>

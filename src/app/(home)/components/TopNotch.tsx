@@ -14,7 +14,7 @@ const TopNotch = () => {
             desc={
               "NexRover helps entrepreneurs build products from scratch and support growing companies with a ready-to-go dev team that can jump in right away."
             }
-            maxWidthHead="550px"
+            maxWidthHead="600px"
             maxWidthDecs="800px"
             colorHead="primary-text-dark"
             colorDesc={"secondary-text-dark"}
