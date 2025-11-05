@@ -21,12 +21,12 @@ export const Navbar = () => {
       title: "How We Work",
       link: "/work",
     },
-    
-    // {
-    //   id: 3,
-    //   title: "About Us",
-    //   link: "/about",
-    // },
+
+    {
+      id: 3,
+      title: "About Us",
+      link: "/about",
+    },
     // {
     //   id: 4,
     //   title: "Success Stories",

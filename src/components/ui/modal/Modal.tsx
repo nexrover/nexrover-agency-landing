@@ -1,4 +1,7 @@
 "use client";
+
+import GradBtn from "@/components/features/btn/GradBtn";
+
 const Modal = ({
   setIsModalOpen,
 }: {
@@ -7,94 +10,119 @@ const Modal = ({
   return (
     <div>
       {/* MODAL */}
-      <div className="modal_wrapper fixed inset-0 z-50 h-full  bg-black/50  backdrop-blur-sm ">
-        <div className="">
+      <div className="modal_wrapper fixed inset-0 z-50 h-full  bg-black/60 ">
+        <div>
           {/* <!-- Modal body --> */}
           <div className="absolute inset-0  overflow-y-auto">
-            <div className=" my-10 mx-auto wrapper p-6 md:p-12 border border-gray-200 rounded-md bg-white max-w-[672px]">
+            <div className=" my-10 mx-auto wrapper p-6 md:p-14 border border-border rounded-2xl bg-primary-bg max-w-[780px]">
               <div className="content">
                 {/* <!-- head --> */}
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-4xl text-blue-400 font-medium leading-5">
+                    <h2 className="text-4xl text-primary font-semibold leading-5">
                       Let&apos;s Talk
                     </h2>
-                    <p className="text-lg text-gray-800 italic pt-2 pb-4">
+                    <p className="text-lg text-secondary-text italic pt-2 pb-8">
                       Required fieled are marked
                     </p>
                   </div>
                   <div>
                     <button
                       onClick={() => setIsModalOpen(false)}
-                      className="text-lg text-gray-800 hover:cursor-pointer hover:text-gray-600"
+                      className="w-6 h-6 flex items-center justify-center rounded-xs text-lg text-primary-text hover:cursor-pointer hover:text-secondary-text hover:font-medium duration-200 hover:bg-secondary-bg "
                     >
-                      X
+                      &#10005;
                     </button>
                   </div>
                 </div>
 
-                <form action="">
+                <form>
                   {/* <!-- input part --> */}
                   <div className="flex flex-col gap-4">
-                    {/* <!-- item --> */}
+                    {/* <!-- company name --> */}
                     <label
                       htmlFor="company_name"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span>Company name </span>
+                      <span className=" relative">
+                        Company name
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+
                       <input
                         type="text"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
+                        className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary required"
                       />
                     </label>
-                    {/* <!-- item --> */}
+                    {/* <!-- First name --> */}
                     <label
-                      htmlFor="First Name"
+                      htmlFor="first_name"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span>First Name</span>
+                      <span className=" relative">
+                        First Name
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+
                       <input
                         type="text"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
+                        className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary required"
                       />
                     </label>
-                    {/* <!-- item --> */}
+                    {/* <!-- last name --> */}
                     <label
-                      htmlFor="company_name"
+                      htmlFor="last_name"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span>Last name </span>
+                      <span className=" relative">Last Name</span>
+
                       <input
                         type="text"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
+                        className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
-                    {/* <!-- item --> */}
+                    {/* <!-- email address --> */}
                     <label
-                      htmlFor="company_name"
+                      htmlFor="email"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span>Email </span>
+                      <span className=" relative">
+                        Email Address
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+
                       <input
                         type="email"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
+                        className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
-                    {/* <!-- item --> */}
+                    {/* <!-- Phone number --> */}
                     <label
-                      htmlFor="company_name"
+                      htmlFor="phone_number"
                       className="text-sm md:text-[16px] leading-5"
                     >
-                      <span>Phone number</span>
+                      <span className=" relative">
+                        Phone Number
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+
                       <input
                         type="number"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
+                        className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
                   </div>
 
                   <div className="py-5">
-                    <h5>What can NexRover do for you?*</h5>
+                    <h5 className="">What can NexRover do for you?*</h5>
                     {/* <!-- radio items --> */}
                     <div className="flex flex-col gap-3 mt-1">
                       <label
@@ -133,18 +161,18 @@ const Modal = ({
                       </label>
                     </div>
                   </div>
+                  {/* text area 1*/}
                   <div>
-                    <label
-                      htmlFor="company_name"
-                      className="text-sm md:text-[16px] leading-5"
-                    >
-                      <span>Can you tell us a little more about that?* </span>
-                      <input
-                        type="text"
-                        className="w-full h-20 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
-                      />
-                    </label>
+                    <h4 className="text-sm md:text-[16px] leading-5">
+                      Can you tell us a little more about that?
+                    </h4>
+                    <textarea
+                      name="more_info"
+                      id="more_info"
+                      className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-25 resize-none"
+                    ></textarea>
                   </div>
+                  {/* radio opiton 2 */}
                   <div className="py-5">
                     <h5>What is your budget?*</h5>
                     {/* <!-- radio items --> */}
@@ -194,25 +222,22 @@ const Modal = ({
                       </label>
                     </div>
                   </div>
+
+                  {/* text area 2*/}
                   <div>
-                    <label
-                      htmlFor="company_name"
-                      className="text-sm md:text-[16px] leading-5"
-                    >
-                      <span> How did you hear about NexRover? </span>
-                      <input
-                        type="text"
-                        className="w-full h-10 bg-gray-100 mt-1 border border-gray-200 outline-0 p-2 text-sm focus:border focus:border-blue-300"
-                      />
-                    </label>
+                    <h4 className="text-sm md:text-[16px] leading-5">
+                      How did you hear about NexRover?
+                    </h4>
+                    <textarea
+                      name="more_info"
+                      id="more_info"
+                      className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-10 resize-none"
+                    ></textarea>
                   </div>
                   {/* <!-- button --> */}
-                  <button
-                    className="w-[150px] h-[50px] bg-green-400 text-white font-bold text-xl flex items-center justify-center hover:bg-green-500 duration-200 hover:cursor-pointer mt-10"
-                    type="submit"
-                  >
-                    Submit
-                  </button>
+                  <div className="mt-10 text-center">
+                    <GradBtn btnType="submit" btnText="Submit" />
+                  </div>
                 </form>
               </div>
             </div>

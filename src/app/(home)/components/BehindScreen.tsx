@@ -6,15 +6,15 @@ const BehindScreen = () => {
   return (
     <section className="section-padding bg-gradient-radial">
       <div className="container mx-auto">
-        <div className="wrapper flex flex-col lg:flex-row lg:justify-between lg:gap-8">
+        <div className="wrapper flex flex-col lg:flex-row lg:justify-between items-center lg:gap-8">
           {/* <!-- left content-figure --> */}
           <div className="max-w-[470px]">
             <Image
-              src="/image/user-setup.png"
+              src="/image/behind.svg"
               alt="figure"
               width={500}
               height={500}
-              className="w-[350px] lg:w-[470px] h-auto  "
+              className="w-[350px] lg:w-[470px] h-auto  object-cover "
             />
           </div>
           {/* <!-- right content-article --> */}

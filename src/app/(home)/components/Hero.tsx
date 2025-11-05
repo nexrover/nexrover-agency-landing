@@ -12,7 +12,7 @@ const Hero = () => {
           {/* <!-- hero-left part --> */}
           <div className="lg:w-7/12 w-auto">
             {/* <!-- hero-title --> */}
-            <h1 className="max-w-[650px] hero-head text-center lg:text-left">
+            <h1 className="max-w-[600px] hero-head text-center lg:text-left">
               Building software
               <br />
               for businesses & founders shaping the future
@@ -53,7 +53,7 @@ const Hero = () => {
               </li>
             </ul>
             {/* <!-- hero-button --> */}
-            <div className="mt-9 flex justify-center lg:justify-start">
+            <div className="mt-14 flex justify-center lg:justify-start">
               <button
                 onClick={() => setIsModalOpen(!isModalOpen)}
                 className="font-primary font-medium  md:text-[16px] text-sm text-primary-text-dark bg-gradient md:px-8 px-1 md:py-3 py-1 rounded-lg duration-200 hover:cursor-pointer hover:shadow-xl hover:scale-101 active:scale-95"
