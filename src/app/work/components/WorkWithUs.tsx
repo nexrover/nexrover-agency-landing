@@ -8,31 +8,25 @@ const WorkWithUs = () => {
     {
       id: 1,
       title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      desc: "Guides discovery workshops and refines your product goals.",
       icon: "/icons/pc.png",
     },
     {
       id: 2,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "Technical Product Manager",
+      desc: "Keeps strategy and tech aligned while driving rapid progress.",
       icon: "/icons/pc.png",
     },
     {
       id: 3,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "UX/UI Designers",
+      desc: "Create beautiful, testable prototypes that feel like the real thing.",
       icon: "/icons/pc.png",
     },
     {
       id: 4,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
-      icon: "/icons/pc.png",
-    },
-    {
-      id: 5,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "Tech Lead",
+      desc: "Ensures every idea is technically sound and ready to scale.",
       icon: "/icons/pc.png",
     },
   ];
@@ -41,31 +35,37 @@ const WorkWithUs = () => {
     {
       id: 1,
       title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      desc: "Asks the right questions and keeps the vision sharp.",
       icon: "/icons/pc.png",
     },
     {
       id: 2,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "Technical Product Manager",
+      desc: "Former developers who manage builds with precision.",
       icon: "/icons/pc.png",
     },
     {
       id: 3,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "UX/UI Designers",
+      desc: "Obsessed with clarity, usability, and experience.",
       icon: "/icons/pc.png",
     },
     {
       id: 4,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "Developers",
+      desc: "Skilled engineers who bring creativity and care to every feature.",
       icon: "/icons/pc.png",
     },
     {
       id: 5,
-      title: "Product Strategist",
-      desc: "Your product strategist guides workshops and helps run the discovery process",
+      title: "Tech Leads & DevOps",
+      desc: "Speed, stability, and smooth releases.",
+      icon: "/icons/pc.png",
+    },
+    {
+      id: 6,
+      title: "QA Analysts",
+      desc: "Rigorous testers ensuring a seamless user experience.",
       icon: "/icons/pc.png",
     },
   ];
@@ -76,9 +76,8 @@ const WorkWithUs = () => {
         <div className="pb-8">
           {/* section heading */}
           <SectionHeading
-            head="There are two ways to work with us"
-            desc="Either way, you get a fully-managed team of experts working together
-            with optimized processes."
+            head="Two ways to work with Nexrover"
+            desc="Either way, you get a fully-managed squad of experts — strategists, designers, and developers working together with a proven process."
             colorHead="primary-text"
             colorDesc="secondary-text"
             textAlign="center"
@@ -106,15 +105,13 @@ const WorkWithUs = () => {
             </div>
             {/* <!-- cart title --> */}
             <div>
-              <h3 className="section-head text-3xl!">Product Design</h3>
+              <h3 className="section-head text-3xl!">Product Design Sprint</h3>
               <p className="section-head-desc pt-6 pb-4">
-                Validate a prototype before you go all i
+                Validate your vision before you build.
               </p>
               <p className="com-text">
-                Turn your vision into a high-fidelity prototype and learn how to
-                validate it with target users so you can master user testing
-                while deepening those connections. For most products, this
-                process takes just 30 days. Your squad includes:
+                Turn your idea into a high-fidelity prototype and test it with real users — all in just 30 days.
+Our Design Sprint helps you shape your concept, de-risk development, and gain clarity before writing a single line of code. Your squad includes:
               </p>
             </div>
             {/* <!-- cart list --> */}
