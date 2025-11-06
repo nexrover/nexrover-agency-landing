@@ -7,8 +7,8 @@
   --secondary-text: #334155;
   --primary-text-dark: #ffffff;
   --secondary-text-dark: #d3dce2;
-  --primary-grad: #00369f;
-  --secondary-grad: #6432cd;
+  --primary-grad: #00283a;
+  --secondary-grad: #055983;
   --border: #d3e0ea;
   --primary-bg: #ffffff;
   --secondary-bg: #eaf0f7;
@@ -16,7 +16,7 @@
   --nav-border: #d7f9ff;
   --nav-text: #8b999c;
   --nav-btn: #325a61;
-  --dark-bg: #000710;
+  --dark-bg: #00283a;
 }
 
 @theme {
@@ -61,15 +61,6 @@ li,
 button,
 div {
   @apply font-primary;
-}
-.bg-gradient-radial {
-  @apply bg-radial from-primary/10 via-secondary-grad/10 to-primary/10;
-}
-.bg-gradient {
-  @apply bg-linear-to-r from-secondary via-primary to-secondary;
-}
-.section-bg-gradient {
-  @apply bg-linear-to-r from-secondary to-primary;
 }
 
 .section-padding {
@@ -122,20 +113,14 @@ div {
 
 /* Gradient version */
 .grad-v1 {
-  @apply bg-[radial-gradient(circle_at_center,#6F00FF_0%,#2E00F9_50%,#001B44_100%)];
+  @apply bg-[radial-gradient(circle_at_50%_50%,var(--secondary-grad),var(--primary-grad))];
 }
-.grad-v2 {
-  @apply bg-[radial-gradient(circle_at_center,#003CFF_0%,#002266_50%,#000E33_100%)];
+.bg-gradient-radial {
+  @apply bg-radial from-primary/10 via-secondary-grad/10 to-primary/10;
 }
-.grad-v3 {
-  @apply bg-[radial-gradient(circle_at_center,#0A5BFF_0%,#002A99_40%,#001B66_100%)];
+.bg-gradient {
+  @apply bg-linear-to-b from-secondary to-primary;
 }
-.grad-v4 {
-  @apply bg-[radial-gradient(circle_at_center,#0074D9_0%,#0A2472_60%,#001F3F_100%)];
-}
-.grad-v5 {
-  @apply bg-[radial-gradient(circle_at_bottom_right,#00C6FF_0%,#0057FF_40%,#00144D_100%)];
-}
-.grad-v6 {
-  @apply bg-[radial-gradient(circle_at_bottom_right,#00F0FF_0%,#5C6FFF_35%,#6F00FF_70%,#001133_100%)];
+.section-bg-gradient {
+  @apply bg-linear-to-r from-secondary to-primary;
 }

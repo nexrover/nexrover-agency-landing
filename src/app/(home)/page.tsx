@@ -18,8 +18,8 @@ export default function Home() {
       {/* <WhyBest /> */}
       <WhatMake />
       {/* <LatestArticle /> */}
-      <BehindScreen />
       <Team />
+      <BehindScreen />
     </main>
   );
 }

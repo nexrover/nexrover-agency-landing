@@ -7,14 +7,14 @@ const TopNotch = () => {
     <section className="section-padding">
       <div className="container mx-auto">
         {/* gradient card wrapper */}
-        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v4">
+        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v1">
           {/* <!-- section haeding --> */}
           <SectionHeading
             head={"Need world-class developers? You’re in the right place."}
             desc={
               "NexRover helps entrepreneurs build products from scratch and support growing companies with a ready-to-go dev team that can jump in right away."
             }
-            maxWidthHead="600px"
+            maxWidthHead="700px"
             maxWidthDecs="800px"
             colorHead="primary-text-dark"
             colorDesc={"secondary-text-dark"}

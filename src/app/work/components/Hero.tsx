@@ -13,9 +13,10 @@ const Hero = () => {
           <div className="lg:w-7/12 w-auto">
             {/* <!-- hero-title --> */}
             <h1 className="max-w-[650px] hero-head text-center lg:text-left">
-You bring the vision.
+              You bring the vision.
               <br />
- We make it real.            </h1>
+              We make it real.{" "}
+            </h1>
             {/* <!-- hero-list-items --> */}
             <ul className="max-w-[600px] mt-8 flex flex-col gap-4">
               <li className="hero-list-item">
@@ -26,17 +27,9 @@ You bring the vision.
                   height={20}
                   className="lg:w-4 lg:h-4 w-3 h-3"
                 />
-                <span>Nexrover helps you move from concept to market—fast.</span>
-              </li>
-              <li className="hero-list-item">
-                <Image
-                  src="/icons/check-circle-solid-blue.svg"
-                  alt="icon"
-                  width={20}
-                  height={20}
-                  className="lg:w-4 lg:h-4 w-3 h-3"
-                />
-                <span>Validate early, craft world-class UX, and launch with confidence.</span>
+                <span>
+                  Nexrover helps you move from concept to market—fast.
+                </span>
               </li>
               <li className="hero-list-item">
                 <Image
@@ -47,12 +40,23 @@ You bring the vision.
                   className="lg:w-4 lg:h-4 w-3 h-3"
                 />
                 <span>
-                 No long-term contracts. Just results.
+                  Validate early, craft world-class UX, and launch with
+                  confidence.
                 </span>
+              </li>
+              <li className="hero-list-item">
+                <Image
+                  src="/icons/check-circle-solid-blue.svg"
+                  alt="icon"
+                  width={20}
+                  height={20}
+                  className="lg:w-4 lg:h-4 w-3 h-3"
+                />
+                <span>No long-term contracts. Just results.</span>
               </li>
             </ul>
             {/* <!-- hero-button --> */}
-            <div className="mt-9 flex justify-center lg:justify-start">
+            <div className="mt-14 flex justify-center lg:justify-start">
               <button
                 onClick={() => setIsModalOpen(!isModalOpen)}
                 className="font-primary font-medium  md:text-[16px] text-sm text-primary-text-dark bg-gradient md:px-8 px-1 md:py-3 py-1 rounded-lg duration-200 hover:cursor-pointer hover:shadow-xl hover:scale-101 active:scale-95"

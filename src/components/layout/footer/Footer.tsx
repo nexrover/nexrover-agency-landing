@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="section-padding bg-dark-bg">
       <div className="container mx-auto">
-        <div className="wrapper grid grid-cols-1 lg:grid-cols-[360px_1fr_auto_auto_1fr] justify-content-between items-start gap-5">
+        <div className="wrapper grid grid-cols-1 lg:grid-cols-[360px_auto_auto_auto_auto] justify-content-between items-start gap-5">
           {/* <!-- column-1  --> */}
           <div>
             <div>

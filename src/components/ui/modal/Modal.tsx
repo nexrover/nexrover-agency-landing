@@ -42,7 +42,7 @@ const Modal = ({
                     {/* <!-- company name --> */}
                     <label
                       htmlFor="company_name"
-                      className="text-sm md:text-[16px] leading-5"
+                      className="text-primary-text text-sm md:text-[16px] leading-5"
                     >
                       <span className=" relative">
                         Company name
@@ -121,46 +121,83 @@ const Modal = ({
                     </label>
                   </div>
 
+                  {/* What can NexRover do for you? */}
                   <div className="py-5">
-                    <h5 className="">What can NexRover do for you?*</h5>
-                    {/* <!-- radio items --> */}
+                    <h5 className="text-primary-text">
+                      <span className=" relative">
+                        What can NexRover do for you?
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+                    </h5>
+                    {/* <!-- radio items - offer --> */}
                     <div className="flex flex-col gap-3 mt-1">
+                      {/* a */}
                       <label
-                        htmlFor="item4"
+                        htmlFor="offer_1"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item4" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="offer_1"
+                          name="offer"
+                          value="a"
+                        />
                         <span className="text-gray-700">
                           Create an Amazing New Product
                         </span>
                       </label>
+                      {/* b */}
                       <label
-                        htmlFor="item1"
+                        htmlFor="offer_2"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item1" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="offer_2"
+                          name="offer"
+                          value="b"
+                        />
                         <span className="text-gray-700">
                           Make my great product even greater
                         </span>
                       </label>
+                      {/* c */}
                       <label
-                        htmlFor="item2"
+                        htmlFor="offer_3"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item2" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="offer_3"
+                          name="offer"
+                          value="b"
+                        />
                         <span className="text-gray-700">
-                          Automate my QA and testing{" "}
+                          Automate my QA and testing
                         </span>
                       </label>
+                      {/* d */}
                       <label
-                        htmlFor="item3"
+                        htmlFor="offer_4"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item3" />
-                        <span className="text-gray-700">Something else </span>
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="offer_4"
+                          name="offer"
+                          value="b"
+                        />
+                        <span className="text-gray-700">Something else</span>
                       </label>
                     </div>
                   </div>
+
                   {/* text area 1*/}
                   <div>
                     <h4 className="text-sm md:text-[16px] leading-5">
@@ -172,53 +209,94 @@ const Modal = ({
                       className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-25 resize-none"
                     ></textarea>
                   </div>
-                  {/* radio opiton 2 */}
+
+                  {/* What is your budget? */}
                   <div className="py-5">
-                    <h5>What is your budget?*</h5>
-                    {/* <!-- radio items --> */}
+                    <h5 className="text-primary-text">
+                      <span className=" relative">
+                        What is your budget?
+                        <span className="absolute top-0 -right-2.5 text-red-600 ">
+                          *
+                        </span>
+                      </span>
+                    </h5>
+                    {/* <!-- radio items - budget --> */}
                     <div className="flex flex-col gap-3 mt-1">
+                      {/* a */}
                       <label
-                        htmlFor="item5"
+                        htmlFor="budget_1"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item5" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="budget_1"
+                          name="budget"
+                          value="a"
+                        />
+                        <span className="text-gray-700">Less than $50,000</span>
+                      </label>
+                      {/* b */}
+                      <label
+                        htmlFor="budget_2"
+                        className="flex justify-start items-center gap-1"
+                      >
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="budget_2"
+                          name="budget"
+                          value="b"
+                        />
                         <span className="text-gray-700">
-                          Less than $50,000{" "}
+                          $50,000 - $150,000
                         </span>
                       </label>
+                      {/* c */}
                       <label
-                        htmlFor="item6"
+                        htmlFor="budget_3"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item6" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="budget_3"
+                          name="budget"
+                          value="c"
+                        />
                         <span className="text-gray-700">
-                          $50,000 - $150,000{" "}
+                          $150,000 - $350,000
                         </span>
                       </label>
+                      {/* d */}
                       <label
-                        htmlFor="item7"
+                        htmlFor="budget_4"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item7" />
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="budget_4"
+                          name="budget"
+                          value="d"
+                        />
                         <span className="text-gray-700">
-                          $150,000 - $350,000{" "}
+                          $350,000 - $500,000
                         </span>
                       </label>
+                      {/* e */}
                       <label
-                        htmlFor="item8"
+                        htmlFor="budget_5"
                         className="flex justify-start items-center gap-1"
                       >
-                        <input type="radio" className="w-4 h-4" id="item8" />
-                        <span className="text-gray-700">
-                          $350,000 - $500,000{" "}
-                        </span>
-                      </label>
-                      <label
-                        htmlFor="item9"
-                        className="flex justify-start items-center gap-1"
-                      >
-                        <input type="radio" className="w-4 h-4" id="item9" />
-                        <span className="text-gray-700">$500,000 or more </span>
+                        <input
+                          type="radio"
+                          className="w-4 h-4"
+                          id="budget_5"
+                          name="budget"
+                          value="e"
+                        />
+                        <span className="text-gray-700">$500,000 or more</span>
                       </label>
                     </div>
                   </div>
