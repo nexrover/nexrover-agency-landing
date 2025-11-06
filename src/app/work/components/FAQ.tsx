@@ -51,11 +51,11 @@ const FAQ = () => {
         />
 
         {/* FAQ wrapper */}
-        <div className="accordian-wrapper grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10">
+        <div className="grid grid-cols-2 gap-10 mt-10 ">
           {faqItems.map((item) => (
             <div key={item.id}>
               {/* Accordion Item 1 */}
-              <div className="bg-secondary-bg rounded-md overflow-hidden border border-border ">
+              <div className="bg-secondary-bg rounded-md overflow-hidden border border-border max-h-[200px] ">
                 <input
                   type="checkbox"
                   id={item.id.toString()}
@@ -65,7 +65,7 @@ const FAQ = () => {
                 {/* Header */}
                 <label
                   htmlFor={item.id.toString()}
-                  className="flex justify-between items-center p-5 cursor-pointer select-none "
+                  className="flex justify-between p-5 cursor-pointer select-none "
                 >
                   <span className="com-text font-medium ">{item.question}</span>
 

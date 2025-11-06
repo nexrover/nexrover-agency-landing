@@ -7,7 +7,7 @@ const TopNotch = () => {
     <section className="section-padding">
       <div className="container mx-auto">
         {/* gradient card wrapper */}
-        <div className="wrapper rounded-[30px] p-10 lg:p-20 grad-v1">
+        <div className="wrapper rounded-[20px] md:rounded-[30px] p-8 lg:p-20 grad-v1">
           {/* <!-- section haeding --> */}
           <SectionHeading
             head={"Need world-class developers? You’re in the right place."}
@@ -22,10 +22,10 @@ const TopNotch = () => {
             textAlign={"center"}
           />
           {/* <!-- top-notch-list --> */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 gap-y-8 lg:gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 pt-6 md:pt-16 gap-y-8 lg:gap-10">
             {/* <!-- item-1 --> */}
             <div className="item">
-              <div className="bg-red-500 rounded-full w-28 h-28 flex items-center justify-center">
+              <div className="bg-red-bg rounded-full w-16 h-16 md:w-28 md:h-28 flex items-center justify-center">
                 <Image
                   src="/icons/product_and_design.svg"
                   alt="icon"
@@ -34,8 +34,8 @@ const TopNotch = () => {
                   className="w-8 h-8 md:w-20 md:h-20 "
                 />
               </div>
-              <div className="text-left pt-6">
-                <h3 className="text-primary-text-dark font-bold text-[28px] leading-[130%]">
+              <div className="text-left pt-4 md:pt-6">
+                <h3 className="text-primary-text-dark font-semibold md:font-bold text-xl md:text-[28px] leading-[130%]">
                   Building a new product?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
@@ -43,7 +43,7 @@ const TopNotch = () => {
                   features first. We’re experts in:
                 </p>
                 {/* <!-- lists --> */}
-                <div className="flex items-center pt-6 flex-wrap gap-4">
+                <div className="flex items-center pt-4 md:pt-6 flex-wrap gap-1 md:gap-4">
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2 rounded-full">
                       <Image
@@ -105,7 +105,7 @@ const TopNotch = () => {
             </div>
             {/* <!-- item-2 --> */}
             <div className="item">
-              <div className="bg-amber-400 rounded-full w-28 h-28 flex items-center justify-center">
+              <div className="bg-yellow-bg rounded-full w-16 h-16  md:w-28 md:h-28 flex items-center justify-center">
                 <Image
                   src="/icons/engine_with_dash.svg"
                   alt="icon"
@@ -114,8 +114,8 @@ const TopNotch = () => {
                   className="w-8 h-8 md:w-20 md:h-20 "
                 />
               </div>
-              <div className="text-left pt-6">
-                <h3 className="text-primary-text-dark font-bold text-[28px] leading-[130%]">
+              <div className="text-left pt-4 md:pt-6">
+                <h3 className="text-primary-text-dark font-semibold md:font-bold text-xl md:text-[28px] leading-[130%]">
                   Short on developers?
                 </h3>
                 <p className="text-secondary-text-dark pt-4">
@@ -123,7 +123,7 @@ const TopNotch = () => {
                   goals. We specialize in:
                 </p>
                 {/* <!-- lists --> */}
-                <div className="flex items-center pt-6 flex-wrap gap-4">
+                <div className="flex items-center justify-start pt-4 md:pt-6 flex-wrap gap-1 md:gap-4">
                   <div className="flex items-center justify-start gap-2">
                     <div className="p-2  rounded-full">
                       <Image

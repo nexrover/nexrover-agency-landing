@@ -62,14 +62,14 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          {/* <!-- hero right part --> */}
-          <div className="lg:h-5/12 w-auto object-cover object-center">
+          {/* <!-- hero banner --> */}
+          <div className="lg:h-5/12 w-auto py-10 md:py-0">
             <Image
               src="/image/hero-team.svg"
               alt="image"
               width={600}
               height={600}
-              className="max-w-[650px] h-auto"
+              className="w-[370px] md:w-auto max-w-[650px] h-auto object-cover object-center"
             />
           </div>
         </div>

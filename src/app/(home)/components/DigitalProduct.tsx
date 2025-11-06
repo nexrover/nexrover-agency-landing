@@ -4,7 +4,7 @@ const DigitalProduct = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto grid md:grid-cols-2 md:gap-10 gap-4 items-center">
-        <div>
+        <div className="order-2">
           {/* section-head */}
           <div>
             <h1 className="section-head md:text-left text-center">
@@ -34,16 +34,18 @@ const DigitalProduct = () => {
             </a>
             <a
               href="#"
-              className="border border-border text-primary-text px-6 py-3 rounded-lg font-medium  hover:text-primary-text-dark duration-200  hover:bg-linear-to-r hover:from-secondary hover:via-primary hover:to-secondary"
+              className="border border-border text-primary-text px-6 py-3 rounded-lg font-medium  hover:text-primary-text-dark duration-200  hover:bg-linear-to-b hover:from-secondary hover:to-primary"
             >
               Book a Strategy Call
             </a>
           </div>
         </div>
 
-        <div className="flex justify-center">
-          <div className="w-[90%] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
-            <span className="text-gray-500">Illustration goes here</span>
+        <div className="flex justify-center order-1">
+          <div className="w-[90%] h-[350px] bg-gradient rounded-xl flex items-center justify-center">
+            <span className="text-primary-text-dark">
+              Illustration goes here
+            </span>
           </div>
         </div>
       </div>

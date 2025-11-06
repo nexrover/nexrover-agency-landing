@@ -85,7 +85,7 @@ const WorkWithUs = () => {
         </div>
         <div className="wrapper flex justify-between items-start gap-8 pt-8">
           {/* <!-- left card --> */}
-          <div className="bg-secondary/10 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-primary max-w-1/2">
+          <div className="bg-red-bg/10 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-red-bg max-w-1/2">
             {/* <!-- top icon --> */}
             <div className="flex justify-between items-end mb-6">
               <Image
@@ -110,18 +110,20 @@ const WorkWithUs = () => {
                 Validate your vision before you build.
               </p>
               <p className="com-text">
-                Turn your idea into a high-fidelity prototype and test it with real users — all in just 30 days.
-Our Design Sprint helps you shape your concept, de-risk development, and gain clarity before writing a single line of code. Your squad includes:
+                Turn your idea into a high-fidelity prototype and test it with
+                real users — all in just 30 days. Our Design Sprint helps you
+                shape your concept, de-risk development, and gain clarity before
+                writing a single line of code. Your squad includes:
               </p>
             </div>
             {/* <!-- cart list --> */}
             <div className="lists flex flex-col gap-8 pt-8">
               {productDesignFeatures.map((item) => (
                 <div
-                  className="grid grid-cols-[20%_1fr] items-start gap-3"
+                  className="grid grid-cols-[15%_1fr] items-start gap-3"
                   key={item.id}
                 >
-                  <div className="w-[60px] h-[60px] bg-primary rounded-full flex items-center justify-center ">
+                  <div className="w-[60px] h-[60px] bg-red-bg/80 rounded-full flex items-center justify-center ">
                     <Image
                       src={item.icon}
                       alt="icon"
@@ -139,22 +141,27 @@ Our Design Sprint helps you shape your concept, de-risk development, and gain cl
             </div>
             {/* <!-- btn --> */}
             <div className="mt-12">
-              <GradBtn btnText="Learn More" />
+              <button
+                type="button"
+                className="text-red-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-red-bg hover:border-2 hover:border-red-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
+              >
+                Learn More
+              </button>
             </div>
           </div>
           {/* <!-- right card --> */}
-          <div className="bg-secondary/10 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-primary max-w-1/2">
+          <div className="bg-yellow-bg/30 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-yellow-bg max-w-1/2">
             {/* <!-- top icon --> */}
             <div className="flex justify-between items-end mb-6">
               <Image
-                src="/icons/block.svg"
+                src="/icons/productDev.svg"
                 alt="icon"
                 width={80}
                 height={80}
                 className="w-[60px] h-[60px] object-cover"
               />
               <Image
-                src="/icons/waves-blue.svg"
+                src="/icons/circles-yellow.svg"
                 alt="icon"
                 width={80}
                 height={80}
@@ -178,10 +185,10 @@ Our Design Sprint helps you shape your concept, de-risk development, and gain cl
             <div className="lists flex flex-col gap-8 pt-8">
               {productDevelopmentFeatures.map((item) => (
                 <div
-                  className="grid grid-cols-[20%_1fr] items-start gap-3"
+                  className="grid grid-cols-[15%_1fr] items-start gap-3"
                   key={item.id}
                 >
-                  <div className="w-[60px] h-[60px] bg-primary rounded-full flex items-center justify-center ">
+                  <div className="w-[60px] h-[60px] bg-yellow-bg/80 rounded-full flex items-center justify-center ">
                     <Image
                       src={item.icon}
                       alt="icon"
@@ -192,14 +199,19 @@ Our Design Sprint helps you shape your concept, de-risk development, and gain cl
                   </div>
                   <div>
                     <h4 className="section-head text-xl!">{item.title}</h4>
-                    <p className="com-text pt-1">{item.desc}</p>
+                    <p className="com-text">{item.desc}</p>
                   </div>
                 </div>
               ))}
             </div>
             {/* <!-- btn --> */}
             <div className="mt-12">
-              <GradBtn btnText="Learn More" />
+              <button
+                type="button"
+                className="text-yellow-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-yellow-bg hover:border-2 hover:border-yellow-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
+              >
+                Learn More
+              </button>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
 :root {
   --primary: #25badb;
   --secondary: #205a9f;
-  --primary-text: #0c0c0c;
+  --primary-text: #00283a;
   --secondary-text: #334155;
   --primary-text-dark: #ffffff;
   --secondary-text-dark: #d3dce2;
@@ -12,6 +12,8 @@
   --border: #d3e0ea;
   --primary-bg: #ffffff;
   --secondary-bg: #eaf0f7;
+  --red-bg: #fb2c36;
+  --yellow-bg: #ffb900;
   --nav-bg: #f3fdff;
   --nav-border: #d7f9ff;
   --nav-text: #8b999c;
@@ -32,6 +34,8 @@
   --color-border: var(--border);
   --color-primary-bg: var(--primary-bg);
   --color-secondary-bg: var(--secondary-bg);
+  --color-red-bg: var(--red-bg);
+  --color-yellow-bg: var(--yellow-bg);
   --color-nav-bg: var(--nav-bg);
   --color-nav-border: var(--nav-border);
   --color-nav-text: var(--nav-text);
@@ -67,12 +71,12 @@ div {
   @apply py-5 md:py-7 lg:py-20;
 }
 .container {
-  @apply px-6 md:px-0;
+  @apply px-5 md:px-0;
 }
 
 /* common hero title */
 .hero-head {
-  @apply text-primary-text font-bold text-2xl md:text-4xl lg:text-5xl leading-[120%] mt-0 md:mt-4;
+  @apply text-primary-text font-bold text-3xl md:text-4xl lg:text-5xl leading-[130%] mt-0 md:mt-4;
 }
 .hero-head-dark {
   @apply text-primary-text-dark font-bold text-2xl md:text-3xl lg:text-5xl leading-[120%] mt-0 md:mt-4;
@@ -120,6 +124,12 @@ div {
 }
 .bg-gradient {
   @apply bg-linear-to-b from-secondary to-primary;
+}
+.grad-v2 {
+  @apply bg-linear-to-b from-secondary to-red-bg;
+}
+.grad-v3 {
+  @apply bg-linear-to-b from-secondary to-yellow-bg;
 }
 .section-bg-gradient {
   @apply bg-linear-to-r from-secondary to-primary;

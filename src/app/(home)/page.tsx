@@ -2,7 +2,6 @@
 import Hero from "@/app/(home)/components/Hero";
 import TopNotch from "./components/TopNotch";
 import Talent from "./components/Talent";
-import WhyBest from "./components/WhyBest";
 import WhatMake from "./components/WhatMake";
 import LatestArticle from "./components/LatestArticle";
 import BehindScreen from "./components/BehindScreen";
@@ -15,7 +14,7 @@ export default function Home() {
       <Hero />
       <TopNotch />
       <Talent />
-      {/* <WhyBest /> */}
+      <DigitalProduct />
       <WhatMake />
       {/* <LatestArticle /> */}
       <Team />

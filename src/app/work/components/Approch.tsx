@@ -38,7 +38,10 @@ const Approch = () => {
       <div className="container mx-auto">
         <div className="wrapper grid grid-cols-[1fr_2fr] gap-16">
           {/* <!-- title --> */}
-          <SectionHeading head="In the heart of our approch" />
+          <SectionHeading
+            head="In The Heart of Our Approch"
+            colorHead="primary-text"
+          />
           {/* <!-- Approach-list --> */}
           <div className="">
             <div className="grid grid-cols-2 gap-x-12 gap-y-6">
