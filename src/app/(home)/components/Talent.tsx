@@ -63,7 +63,7 @@ const Talent = () => {
             contAlign="auto"
           />
           {/* <!-- telent-cards --> */}
-          <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 align-items-center justify-content-center gap-x-6 gap-y-16 mt-16">
+          <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 align-items-center justify-content-center gap-x-6  gap-y-8 md:gap-y-10 lg:gap-y-16 mt-10 md:mt-16">
             {/* <!-- item --> */}
 
             {talentItem.map((item) => (
@@ -71,16 +71,16 @@ const Talent = () => {
                 key={item.id}
                 className="max-w-[370px] flex flex-col items-start"
               >
-                <div className="md:w-12 md:h-12 bg-primary rounded-full flex items-center justify-center">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-primary rounded-full flex items-center justify-center">
                   <Image
                     src={item.icon}
                     alt={item.altText}
                     width={60}
                     height={60}
-                    className="w-3 h-3 md:w-8 md:h-8"
+                    className="w-6 h-6 md:w-8 md:h-8"
                   />
                 </div>
-                <h4 className="font-semibold text-2xl text-primary-text mt-8 mb-4">
+                <h4 className="font-semibold text-lg md:text-2xl text-primary-text mt-4 md:mt-5 lg:mt-8 mb-1 md:mb-2">
                   {item.title}
                 </h4>
                 <p className="com-text">{item.desc}</p>

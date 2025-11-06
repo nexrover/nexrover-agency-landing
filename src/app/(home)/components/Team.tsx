@@ -13,13 +13,14 @@ const Team = () => {
               Partner with a product-driven team committed to your success
             </h2>
             <p className="section-head-desc-dark text-center mt-4">
-              Enjoy world-class agile execution with a straightforward monthly subscription
+              Enjoy world-class agile execution with a straightforward monthly
+              subscription
             </p>
           </div>
-          <div className="text-center w-full mt-16">
+          <div className="text-center w-full mt-10 md:mt-16">
             <button
               onClick={() => setIsModalOpen(!isModalOpen)}
-              className="text-primary-text font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-transparent hover:border-2 hover:border-dark-bg  hover:cursor-pointer active:scale-95 duration-200"
+              className="text-primary-text font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-3 border-2 border-transparent hover:border-2 hover:border-dark-bg  hover:cursor-pointer active:scale-95 duration-200"
             >
               Get Started
             </button>

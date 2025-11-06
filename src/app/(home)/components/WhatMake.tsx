@@ -5,7 +5,7 @@ const WhatMake = () => {
   return (
     <section className="py-[60px] lg:py-[100px]">
       <div className="container mx-auto">
-        <div className="wrapper lg:max-h-[600px] grid grid-cols-1 lg:grid-cols-2 gap-y-[37px] lg:gap-y-[74px] lg:gap-x-[28px] lg:justify-between lg:items-start">
+        <div className="wrapper lg:max-h-[600px] grid grid-cols-1 lg:grid-cols-2 gap-y-[20px] md:gap-y-[37px] lg:gap-y-[74px] lg:gap-x-7 lg:justify-between lg:items-start">
           {/* section heading */}
           <SectionHeading
             head="What makes NexRover different?"
@@ -16,10 +16,10 @@ const WhatMake = () => {
           {/* <!-- item --> */}
           <div className="lg:order-2">
             <div className="flex items-center gap-3">
-              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
+              <p className="w-6 h-6 md:w-8 md:h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center text-sm md:text-[16px]">
                 1
               </p>
-              <h3 className="font-bold text-primary-text text-2xl">
+              <h3 className="font-semibold md:font-bold text-primary-text text-xl md:text-2xl">
                 Our winning process
               </h3>
             </div>
@@ -27,18 +27,18 @@ const WhatMake = () => {
               We follow a proven product-building framework inspired by the
               world’s best tech teams. Our process removes the stress of
               managing developers and keeps your project moving fast — which
-              means <b>better results, lower costs, and faster launch time</b> than
-              traditional agencies or freelancers. You get a smooth, structured
-              experience — while we handle everything.
+              means <b>better results, lower costs, and faster launch time</b>{" "}
+              than traditional agencies or freelancers. You get a smooth,
+              structured experience — while we handle everything.
             </p>
           </div>
           {/* <!-- item --> */}
           <div className="lg:order-1">
             <div className="flex items-center gap-3">
-              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
+              <p className="w-6 h-6 md:w-8 md:h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center text-sm md:text-[16px]">
                 2
               </p>
-              <h3 className="font-bold text-primary-text text-2xl">
+              <h3 className="font-semibold md:font-bold text-primary-text text-xl md:text-2xl">
                 We focus on your goals
               </h3>
             </div>
@@ -55,19 +55,23 @@ const WhatMake = () => {
           {/* <!-- item --> */}
           <div className="lg:order-3">
             <div className="flex items-center gap-3">
-              <p className="w-8 h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center">
+              <p className="w-6 h-6 md:w-8 md:h-8 bg-primary rounded-md font-light text-primary-text flex items-center justify-center text-sm md:text-[16px]">
                 3
               </p>
-              <h3 className="font-bold text-primary-text text-2xl">
+              <h3 className="font-semibold md:font-bold text-primary-text text-xl md:text-2xl">
                 Proven experience
               </h3>
             </div>
             <p className="com-text pt-4">
               We’ve been building products since 2014, and most of our work
               today comes from returning clients and referrals. Our philosophy
-              is simple: <b>build only what matters — build it well — and deliver
-              with professionalism</b>. That focus on real value, efficiency, and
-              quality is the reason our clients trust us long-term.
+              is simple:{" "}
+              <b>
+                build only what matters — build it well — and deliver with
+                professionalism
+              </b>
+              . That focus on real value, efficiency, and quality is the reason
+              our clients trust us long-term.
             </p>
           </div>
         </div>

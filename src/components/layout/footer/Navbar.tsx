@@ -39,8 +39,8 @@ export const Navbar = () => {
     // },
   ];
   return (
-    <header className="fixed inset-0 container mx-auto top-4  bg-nav-bg w-full h-20 rounded-2xl flex flex-col justify-center border border-nav-border z-50 ">
-      <nav className=" wrapper flex justify-between items-center px-8  ">
+    <header className="fixed inset-0 container mx-auto top-4  bg-nav-bg w-[92%] lg:w-full h-14 md:h-16 lg:h-20 rounded-2xl flex flex-col justify-center border border-nav-border z-50 ">
+      <nav className="wrapper flex justify-between items-center px-0 lg:px-8">
         <div className="">
           <Link href="/">
             <Image
@@ -75,13 +75,13 @@ export const Navbar = () => {
         <div>
           <button
             onClick={() => setIsModalOpen(!isModalOpen)}
-            className="font-medium text-nav-btn px-6 py-1.5 bg-transparent rounded-md border border-nav-btn hover:cursor-pointer hover:shadow-lg duration-200 hover:text-primary-text/90 "
+            className="hidden lg:flex font-medium text-nav-btn px-6 py-1.5 bg-transparent rounded-md border border-nav-btn hover:cursor-pointer hover:shadow-lg duration-200 hover:text-primary-text/90 "
           >
             Get Started
           </button>
         </div>
         {/* mobile responsive  */}
-        <div className="block lg:hidden" id="menuToggle">
+        <div className="block lg:hidden hover:cursor-pointer" id="menuToggle">
           <Image
             src="/icons/menu.png"
             alt="icon"

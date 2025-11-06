@@ -3,6 +3,24 @@ import Image from "next/image";
 import React from "react";
 
 const BehindScreen = () => {
+  const lists = [
+    {
+      id: 1,
+      text: "Share your product idea with us",
+    },
+    {
+      id: 2,
+      text: "Launch with a prototype first",
+    },
+    {
+      id: 3,
+      text: "Make adjustments before we build",
+    },
+    {
+      id: 4,
+      text: " Deliver the product your users actually want",
+    },
+  ];
   return (
     <section className="section-padding bg-gradient-radial">
       <div className="container mx-auto">
@@ -26,25 +44,13 @@ const BehindScreen = () => {
               colorHead="primary-text"
               colorDesc="seconday-text"
             />
-            <ul className="flex flex-col gap-4 pt-4 md:gap-8 md:pt-8">
-              <li className="flex items-center gap-3">
-                <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Share your product idea with us</p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Launch with a prototype first</p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">Make adjustments before we build</p>
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-4 h-4 bg-primary rounded-full p-2"></div>
-                <p className="com-text">
-                  Deliver the product your users actually want
-                </p>
-              </li>
+            <ul className="flex flex-col gap-2 pt-2 md:gap-3 md:pt-7">
+              {lists.map((item) => (
+                <li className="flex items-start gap-3" key={item.id}>
+                  <div className="w-4 h-4 bg-primary rounded-full p-2 mt-1.5"></div>
+                  <p className="com-text">{item.text}</p>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
