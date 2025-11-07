@@ -21,11 +21,11 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-4 left-1/2 -translate-x-1/2 w-[92%] lg:w-full bg-nav-bg border border-nav-border shadow-sm z-50 container ${
+      className={`fixed top-4 left-1/2 -translate-x-1/2 w-[92%] md:w-full bg-nav-bg border border-nav-border shadow-sm z-50 container ${
         isMenuOpen ? "rounded-t-lg" : "rounded-lg lg:rounded-2xl"
       }`}
     >
-      <nav className="flex justify-between items-center px-4 md:px-6 lg:px-8 h-14 md:h-16 lg:h-20">
+      <nav className="flex justify-between items-center md:px-6 lg:px-8 h-14 md:h-16 lg:h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
