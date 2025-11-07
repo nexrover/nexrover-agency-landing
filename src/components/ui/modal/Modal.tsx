@@ -10,19 +10,19 @@ const Modal = ({
   return (
     <div>
       {/* MODAL */}
-      <div className="modal_wrapper fixed inset-0 z-50 h-full  bg-black/60 ">
+      <div className="modal_wrapper fixed inset-0 z-100 h-full  bg-black/60 ">
         <div>
           {/* <!-- Modal body --> */}
           <div className="absolute inset-0  overflow-y-auto">
-            <div className=" my-10 mx-auto wrapper p-6 md:p-14 border border-border rounded-2xl bg-primary-bg max-w-[780px]">
+            <div className=" my-10 mx-auto wrapper p-6 md:p-14 border border-border rounded-2xl bg-primary-bg max-w-[90%] lg:max-w-[55%]">
               <div className="content">
                 {/* <!-- head --> */}
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-4xl text-primary font-semibold leading-5">
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl text-primary font-semibold leading-5">
                       Let&apos;s Talk
                     </h2>
-                    <p className="text-lg text-secondary-text italic pt-2 pb-8">
+                    <p className="text-sm lg:text-lg text-secondary-text italic pt-2 pb-5 lg:pb-8">
                       Required fieled are marked
                     </p>
                   </div>

@@ -20,7 +20,11 @@ export const Navbar = () => {
   ];
 
   return (
-    <header className="fixed top-4 left-1/2 -translate-x-1/2 w-[92%] lg:w-[90%] xl:w-[85%] bg-nav-bg rounded-2xl border border-nav-border shadow-sm z-50">
+    <header
+      className={`fixed top-4 left-1/2 -translate-x-1/2 w-[92%] lg:w-full bg-nav-bg border border-nav-border shadow-sm z-50 container ${
+        isMenuOpen ? "rounded-t-lg" : "rounded-lg lg:rounded-2xl"
+      }`}
+    >
       <nav className="flex justify-between items-center px-4 md:px-6 lg:px-8 h-14 md:h-16 lg:h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center">
@@ -75,11 +79,11 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-full left-0 w-full bg-nav-bg border-t border-nav-border rounded-b-2xl overflow-hidden transition-all duration-300 ${
+        className={`lg:hidden absolute top-full left-0 w-full bg-nav-bg border-2 border-nav-border rounded-b-2xl overflow-hidden transition-all duration-300 ${
           isMenuOpen ? "h-screen opacity-100" : "h-0 opacity-0"
         }`}
       >
-        <ul className="flex flex-col items-center gap-4 py-4">
+        <ul className="h-scree flex flex-col items-center gap-10 py-14 ">
           {navlist.map((item) => (
             <Link
               key={item.id}
