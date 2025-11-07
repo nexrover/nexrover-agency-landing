@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto mt-[60px] md:mt-[94px] ">
-        <div className="wrapper flex flex-col-reverse lg:flex-row justify-between items-center ">
+        <div className="wrapper flex flex-col-reverse lg:flex-row justify-between items-center gap-1 md:gap-12 lg:gap-8">
           {/* <!-- hero-left part --> */}
           <div className="lg:w-7/12 w-auto">
             {/* <!-- hero-title --> */}
@@ -68,7 +68,7 @@ const Hero = () => {
               alt="image"
               width={600}
               height={600}
-              className="w-[365px] md:w-auto max-w-[650px] h-auto object-cover object-center"
+              className="w-[365px] md:w-[550px] lg:w-auto max-w-[650px] h-auto object-cover object-center"
             />
           </div>
         </div>
