@@ -21,7 +21,7 @@ const Hero = () => {
   ];
   return (
     <section className="section-padding">
-      <div className="container mx-auto mt-[94px] ">
+      <div className="container mx-auto mt-[60px] md:mt-[94px] ">
         <div className="wrapper flex flex-col-reverse lg:flex-row justify-between items-center ">
           {/* <!-- hero-left part --> */}
           <div className="lg:w-7/12 w-auto">
@@ -62,13 +62,13 @@ const Hero = () => {
             </div>
           </div>
           {/* <!-- hero banner --> */}
-          <div className="lg:h-5/12 w-auto py-10 md:py-0">
+          <div className="lg:h-5/12 w-auto py-10 md:py-0 ">
             <Image
               src="/image/hero-team.svg"
               alt="image"
               width={600}
               height={600}
-              className="w-[370px] md:w-auto max-w-[650px] h-auto object-cover object-center"
+              className="w-[365px] md:w-auto max-w-[650px] h-auto object-cover object-center"
             />
           </div>
         </div>

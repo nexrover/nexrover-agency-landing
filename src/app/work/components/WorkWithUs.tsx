@@ -1,4 +1,3 @@
-import GradBtn from "@/components/features/btn/GradBtn";
 import SectionHeading from "@/components/features/SectionHeading";
 import Image from "next/image";
 import React from "react";
@@ -73,7 +72,7 @@ const WorkWithUs = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <div className="pb-8">
+        <div>
           {/* section heading */}
           <SectionHeading
             head="Two ways to work with Nexrover"
@@ -83,9 +82,9 @@ const WorkWithUs = () => {
             textAlign="center"
           />
         </div>
-        <div className="wrapper flex justify-between items-start gap-8 pt-8">
+        <div className="wrapper flex flex-col md:flex-row justify-between items-start gap-8 pt-5   md:pt-6 lg:pt-16">
           {/* <!-- left card --> */}
-          <div className="bg-red-bg/10 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-red-bg max-w-1/2">
+          <div className="bg-red-bg/10 border-red-bg work-card">
             {/* <!-- top icon --> */}
             <div className="flex justify-between items-end mb-6">
               <Image
@@ -93,23 +92,25 @@ const WorkWithUs = () => {
                 alt="icon"
                 width={80}
                 height={80}
-                className="w-[60px] h-[60px] object-cover"
+                className="w-12 h-12 lg:w-[60px] lg:h-[60px] object-cover"
               />
               <Image
                 src="/icons/waves-blue.svg"
                 alt="icon"
                 width={80}
                 height={80}
-                className="w-20 h-auto object-cover"
+                className="w-14 lg:w-20 h-auto object-cover opacity-90"
               />
             </div>
             {/* <!-- cart title --> */}
             <div>
-              <h3 className="section-head text-3xl!">Product Design Sprint</h3>
-              <p className="section-head-desc pt-6 pb-4">
+              <h3 className="text-primary-text font-bold text-2xl lg:text-4xl leading-[140%] mt-0 md:mb-4">
+                Product Design Sprint
+              </h3>
+              <p className="text-secondary-text lg:text-lg mb-2 md:mb-3 lg:mb-6 mt-2">
                 Validate your vision before you build.
               </p>
-              <p className="com-text">
+              <p className="com-text md:text-sm! lg:text-[16px]!">
                 Turn your idea into a high-fidelity prototype and test it with
                 real users — all in just 30 days. Our Design Sprint helps you
                 shape your concept, de-risk development, and gain clarity before
@@ -117,24 +118,28 @@ const WorkWithUs = () => {
               </p>
             </div>
             {/* <!-- cart list --> */}
-            <div className="lists flex flex-col gap-8 pt-8">
+            <div className="lists flex flex-col gap-5 lg:gap-8 pt-5 lg:pt-8">
               {productDesignFeatures.map((item) => (
                 <div
                   className="grid grid-cols-[15%_1fr] items-start gap-3"
                   key={item.id}
                 >
-                  <div className="w-[60px] h-[60px] bg-red-bg/80 rounded-full flex items-center justify-center ">
+                  <div className="w-12 h-12 md:w-10 md:h-10 lg:w-[60px] lg:h-[60px] bg-red-bg/80 rounded-full flex items-center justify-center ">
                     <Image
                       src={item.icon}
                       alt="icon"
                       width={60}
                       height={60}
-                      className="w-10 h-10 object-cover"
+                      className="w-8 h-8 md:w-6 md:h-6 lg:w-10 lg:h-10 object-cover"
                     />
                   </div>
                   <div>
-                    <h4 className="section-head text-xl!">{item.title}</h4>
-                    <p className="com-text pt-1">{item.desc}</p>
+                    <h4 className="text-primary-text font-bold text-xl md:text-lg lg:text-2xl leading-[140%] mt-0 mb-1 lg:mb-4">
+                      {item.title}
+                    </h4>
+                    <p className="text-secondary-text text-sm lg:text-[16px] leading-6 lg:leading-7">
+                      {item.desc}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -143,14 +148,14 @@ const WorkWithUs = () => {
             <div className="mt-12">
               <button
                 type="button"
-                className="text-red-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-red-bg hover:border-2 hover:border-red-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
+                className="text-red-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-6 lg:px-8 py-3 md:py-2 lg:py-3 border-2 border-red-bg hover:border-2 hover:border-red-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
               >
                 Learn More
               </button>
             </div>
           </div>
           {/* <!-- right card --> */}
-          <div className="bg-yellow-bg/30 rounded-[40px] px-12 pt-10 pb-12 border-t-4 border-yellow-bg max-w-1/2">
+          <div className="bg-yellow-bg/10 border-yellow-bg work-card">
             {/* <!-- top icon --> */}
             <div className="flex justify-between items-end mb-6">
               <Image
@@ -158,23 +163,25 @@ const WorkWithUs = () => {
                 alt="icon"
                 width={80}
                 height={80}
-                className="w-[60px] h-[60px] object-cover"
+                className="w-12 h-12 lg:w-[60px] lg:h-[60px] object-cover"
               />
               <Image
                 src="/icons/circles-yellow.svg"
                 alt="icon"
                 width={80}
                 height={80}
-                className="w-20 h-auto object-cover"
+                className="w-14 lg:w-20 h-auto object-cover opacity-90"
               />
             </div>
             {/* <!-- cart title --> */}
             <div>
-              <h3 className="section-head text-3xl!">Product Development</h3>
-              <p className="section-head-desc pt-6 pb-4">
-                Validate a prototype before you go all i
+              <h3 className="text-primary-text font-bold text-2xl lg:text-4xl leading-[140%] mt-0 md:mb-4">
+                Product Development
+              </h3>
+              <p className="text-secondary-text lg:text-lg mb-2 md:mb-3 lg:mb-6 mt-2">
+                Validate a prototype before you go all
               </p>
-              <p className="com-text">
+              <p className="com-text md:text-sm! lg:text-[16px]!">
                 Turn your vision into a high-fidelity prototype and learn how to
                 validate it with target users so you can master user testing
                 while deepening those connections. For most products, this
@@ -182,24 +189,28 @@ const WorkWithUs = () => {
               </p>
             </div>
             {/* <!-- cart list --> */}
-            <div className="lists flex flex-col gap-8 pt-8">
+            <div className="lists flex flex-col gap-5 lg:gap-8 pt-5 lg:pt-8">
               {productDevelopmentFeatures.map((item) => (
                 <div
                   className="grid grid-cols-[15%_1fr] items-start gap-3"
                   key={item.id}
                 >
-                  <div className="w-[60px] h-[60px] bg-yellow-bg/80 rounded-full flex items-center justify-center ">
+                  <div className="w-12 h-12 md:w-10 md:h-10 lg:w-[60px] lg:h-[60px] bg-yellow-bg/80 rounded-full flex items-center justify-center ">
                     <Image
                       src={item.icon}
                       alt="icon"
                       width={60}
                       height={60}
-                      className="w-10 h-10 object-cover"
+                      className="w-8 h-8 md:w-6 md:h-6 lg:w-10 lg:h-10 object-cover"
                     />
                   </div>
                   <div>
-                    <h4 className="section-head text-xl!">{item.title}</h4>
-                    <p className="com-text">{item.desc}</p>
+                    <h4 className="text-primary-text font-bold text-xl md:text-lg lg:text-2xl leading-[140%] mt-0 mb-1 lg:mb-4">
+                      {item.title}
+                    </h4>
+                    <p className="text-secondary-text text-sm lg:text-[16px] leading-6 lg:leading-7">
+                      {item.desc}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -208,7 +219,7 @@ const WorkWithUs = () => {
             <div className="mt-12">
               <button
                 type="button"
-                className="text-yellow-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-8 py-2 md:py-3 border-2 border-yellow-bg hover:border-2 hover:border-yellow-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
+                className="text-yellow-bg font-medium leading-2.5 md:leading-6 bg-secondary-bg rounded-md md:rounded-lg px-4 md:px-6 lg:px-8 py-3 md:py-2 lg:py-3 border-2 border-yellow-bg hover:border-2 hover:border-red-bg/50  hover:cursor-pointer active:scale-95 duration-200 "
               >
                 Learn More
               </button>

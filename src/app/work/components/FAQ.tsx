@@ -51,7 +51,7 @@ const FAQ = () => {
         />
 
         {/* FAQ wrapper */}
-        <div className="grid grid-cols-2 gap-10 mt-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10  mt-6 md:mt-8 lg:mt-10 ">
           {faqItems.map((item) => (
             <div key={item.id}>
               {/* Accordion Item 1 */}

@@ -24,7 +24,7 @@ const SectionHeading: React.FC<SectionHeading> = ({
   return (
     <div className="">
       <h2
-        className={`max-w-[${maxWidthHead}] mx-${contAlign} text-${colorHead} text-${textAlign} font-semibold md:font-bold text-2xl md:text-3xl lg:text-5xl leading-[130%] mt-0 mb-3 md:mb-4`}
+        className={`max-w-[${maxWidthHead}] mx-${contAlign} text-${colorHead} text-${textAlign} font-semibold md:font-bold text-3xl md:text-4xl lg:text-5xl leading-[130%] mt-0 mb-3 md:mb-4`}
       >
         {head}
       </h2>
