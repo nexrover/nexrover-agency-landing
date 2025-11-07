@@ -5,9 +5,9 @@ const OurStory = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <div className="wrapper flex flex-col-reverse justify-center items-center gap-8 lg:flex-row lg:justify-between gap-x-11">
+        <div className="wrapper flex flex-col-reverse justify-center items-center gap-11 lg:flex-row lg:justify-between">
           {/* <!-- article side --> */}
-          <div className="flex flex-col gap-[50px] w-full lg:max-w-1/2">
+          <div className="flex flex-col gap-8 md:gap-10 lg:gap-[50px] w-full lg:max-w-1/2">
             <div>
               <h2 className="section-head">Our story</h2>
               <p className="com-text pt-4">
@@ -26,8 +26,8 @@ const OurStory = () => {
             <div>
               <h2 className="section-head">About us</h2>
               <p className="com-text pt-4">
-                With office in the Chattogram, Bangladesh, we&apos;ve grown
-                to over 10 people working together on cross-functional teams of
+                With office in the Chattogram, Bangladesh, we&apos;ve grown to
+                over 10 people working together on cross-functional teams of
                 managers, UX designers, developers, DevOps, engineers and QA
                 engineers. We&apos;ve continued to win better and better talent
                 and refine our expertise.
@@ -41,7 +41,7 @@ const OurStory = () => {
               alt="figure"
               width={800}
               height={800}
-              className="w-auto object-cover"
+              className="w-auto object-cover mx-auto"
             />
           </div>
         </div>

@@ -3,22 +3,24 @@ import React from "react";
 
 const Founder = () => {
   return (
-    <section className="section-padding !pt-[50px]">
+    <section className="section-padding pt-[50px]!">
       <div className="container mx-auto">
-        <div className="wrapper flex flex-row justify-between gap-16">
+        <div className="wrapper grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-16">
           {/* <!-- left-part description --> */}
-          <div className="max-w-2xl">
+          <div>
             {/* <!-- title part --> */}
-            <div>
+            <div className="text-center lg:text-left ">
               <h2 className="section-head">A note from our founder,</h2>
-              <h2 className="section-head !-mt-3">Pervez Ali</h2>
-              <h4 className="section-head-desc pt-5">
+              <h2 className="section-head lg:-mt-3! bg-linear-to-b from-secondary to-primary bg-clip-text text-transparent!">
+                Pervez Ali
+              </h2>
+              <h4 className="section-head-desc pt-3 md:pt-4 lg:pt-5">
                 Providing Bangladeshi developers with great income and
                 opportunity.
               </h4>
             </div>
             {/* <!-- paragraph --> */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 md:mt-10 lg:mt-12 gap-6 lg:gap-12">
               <div>
                 <p className="com-text">
                   In my late teens and early twenties I turned my SaaS product
@@ -27,7 +29,8 @@ const Founder = () => {
                 </p>
                 <p className="com-text pt-5">
                   {" "}
-                  In 2022, I moved from Chattogram, Bangladesh to the Sylhet City. For a short time, I served as a lead developer at a
+                  In 2022, I moved from Chattogram, Bangladesh to the Sylhet
+                  City. For a short time, I served as a lead developer at a
                   great company, but I missed managing a comprehensive team and
                   making important product decisions. I started NexRover, so I
                   could bring the experience that I had managing a team and
@@ -47,19 +50,18 @@ const Founder = () => {
                   organizations as well as our own use cases.{" "}
                 </p>
                 <p className="com-text pt-5">
-                  Throughout it all, we’ve relied on top-notch talent in Bangladesh
-                  and other parts of Chattogram to work alongside our product
-                  strategists in our US office.{" "}
+                  Throughout it all, we’ve relied on top-notch talent in
+                  Bangladesh and other parts of Chattogram to work alongside our
+                  product strategists in our US office.{" "}
                 </p>
                 <p className="com-text pt-5">
                   For me, it’s significant to bring opportunity back to my home
                   country. Our clients respect this as well. It’s really the
-                  best of both worlds. You can come and visit us in Chattogram. And
-                  you can rest assured that we’re finding the best talent in
-                  Bangladesh. Every developer works on our own internal
-                  projects for 1 – 3 months before they ever touch client work.
-                  That’s the real-life vetting or testing process that we stand
-                  by.
+                  best of both worlds. You can come and visit us in Chattogram.
+                  And you can rest assured that we’re finding the best talent in
+                  Bangladesh. Every developer works on our own internal projects
+                  for 1 – 3 months before they ever touch client work. That’s
+                  the real-life vetting or testing process that we stand by.
                 </p>
               </div>
             </div>

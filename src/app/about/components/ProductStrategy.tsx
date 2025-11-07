@@ -4,14 +4,14 @@ import React from "react";
 const ProductStrategy = () => {
   return (
     <section className="section-padding relative ">
-      <div className="container mx-auto grad-v1 !px-[87px] !py-16 rounded-[40px]">
-        <div className="wrapper flex flex-col-reverse lg:flex-row lg:justify-between items-center lg:gap-[60px]">
+      <div className="container mx-auto grad-v1 rounded-[40px] w-[90%] lg:w-full">
+        <div className="wrapper flex flex-col-reverse lg:flex-row lg:justify-between items-center gap-6 lg:gap-[60px] px-4 py-8 md:px-6 lg:px-20 lg:py-20">
           {/* <!-- article part --> */}
           <div className="lg:max-w-[568px]">
-            <h2 className="section-head-dark">
+            <h2 className="section-head-dark text-center lg:text-left">
               Where product strategy meets expert execution
             </h2>
-            <p className="com-text-dark pt-3.5 md:pt-4">
+            <p className="com-text-dark pt-3.5 md:pt-4 text-justify">
               NexRover&apos;s high performing product teams build business
               software, consumer apps, and government tools. We offer strategy
               that is always grounded in our experience of taking full ownership
