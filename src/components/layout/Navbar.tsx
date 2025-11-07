@@ -33,7 +33,7 @@ export const Navbar = () => {
             alt="logo"
             width={110}
             height={32}
-            className="w-[90px] md:w-[110px] h-auto"
+            className="w-[90px] md:w-[110px] lg:w-[150px] h-auto"
           />
         </Link>
 
