@@ -1,4 +1,3 @@
-import SectionHeading from "@/components/features/SectionHeading";
 import Image from "next/image";
 import React from "react";
 
