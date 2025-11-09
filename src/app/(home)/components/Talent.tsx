@@ -56,7 +56,7 @@ const Talent = () => {
           <SectionHeading
             head="Behind every great product is an incredible team"
             desc="Get elite software developers on demand — plus every resource your
-              squad needs to make your product successful."
+              team needs to make your product successful."
             colorHead="primary-text"
             colorDesc="secondary-text"
             textAlign="center"

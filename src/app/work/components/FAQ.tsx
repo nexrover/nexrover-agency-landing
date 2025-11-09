@@ -17,7 +17,7 @@ const FAQ = () => {
       id: 2,
       question: "Which engagement models do you offer?",
       answer:
-        "Flexible options: rapid Product Design Sprints for fast validation, dedicated engineering squads for long‑term product delivery, or fixed‑scope engagements for defined outcomes. We recommend the model that minimizes risk and maximizes impact.",
+        "Flexible options: rapid Product Design Sprints for fast validation, dedicated engineering teams for long‑term product delivery, or fixed‑scope engagements for defined outcomes. We recommend the model that minimizes risk and maximizes impact.",
     },
     {
       id: 3,
