@@ -68,7 +68,7 @@ const Hero = () => {
               alt="image"
               width={600}
               height={600}
-              className="w-[365px] md:w-auto max-w-[650px] h-auto object-cover object-center"
+              className="w-[95%] md:w-auto max-w-[650px] h-auto object-cover object-center"
             />
           </div>
         </div>
