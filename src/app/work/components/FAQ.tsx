@@ -9,41 +9,41 @@ const FAQ = () => {
   const leftFAQ = [
     {
       id: 1,
-      question: "What services do you offer?",
+      question: "How do you start a new project?",
       answer:
-        "We offer a wide range of services including web development, mobile app development, UI/UX design, and digital marketing.",
+        "We begin with a short discovery: clarify goals, users, metrics, and constraints. That produces a clear plan—design sprint or development roadmap—so you know milestones, deliverables, and risks up front.",
     },
     {
       id: 2,
-      question: "How long does it take to complete a project?",
+      question: "Which engagement models do you offer?",
       answer:
-        "Project timelines vary depending on complexity, but we always ensure transparent communication and timely delivery.",
+        "Flexible options: rapid Product Design Sprints for fast validation, dedicated engineering squads for long‑term product delivery, or fixed‑scope engagements for defined outcomes. We recommend the model that minimizes risk and maximizes impact.",
     },
     {
       id: 3,
-      question: "Do you provide ongoing support after launch?",
+      question: "Who will I work with day‑to‑day?",
       answer:
-        "Yes! We offer maintenance, updates, and technical support after your product goes live to ensure everything runs smoothly.",
+        "A cross‑functional team tailored to your needs: product strategist, UX/UI designers, engineers, QA, and a single point of contact who coordinates delivery and communication.",
     },
   ];
   const rightFAQ = [
     {
       id: 4,
-      question: "What services offer?",
+      question: "How do you handle communication and timezones?",
       answer:
-        "We offer a wide range of services including web development, mobile app development, UI/UX design, and digital marketing.",
+        "We blend synchronous overlap (planning, demos) with async updates via Slack, Notion, and GitHub. Regular demos, clear tickets, and status notes keep progress visible across timezones.",
     },
     {
       id: 5,
-      question: "How long does it take to complete a project?",
+      question: "Who owns the code and intellectual property?",
       answer:
-        "Project timelines vary depending on complexity, but we always ensure transparent communication and timely delivery.",
+        "You own the IP and repositories for your product. We deliver code, documentation, and can sign NDAs or custom contracts to meet procurement and legal needs.",
     },
     {
       id: 6,
-      question: "Do you provide ongoing support after launch?",
+      question: "How do you ensure quality and post‑launch support?",
       answer:
-        "Yes! We offer maintenance, updates, and technical support after your product goes live to ensure everything runs smoothly.",
+        "Quality is built in: automated tests, code reviews, and CI/CD pipelines. After launch we offer monitoring, maintenance, and optional support plans so your product stays reliable as you scale.",
     },
   ];
 
@@ -51,7 +51,7 @@ const FAQ = () => {
     <section className="section-padding">
       <div className="container mx-auto">
         <SectionHeading
-          head="Frequently Asked Questions"
+          head="Frequently asked questions"
           colorHead="primary-text"
           textAlign="center"
         />

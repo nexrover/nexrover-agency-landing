@@ -108,13 +108,10 @@ const WorkWithUs = () => {
                 Product Design Sprint
               </h3>
               <p className="text-secondary-text lg:text-lg mb-2 md:mb-3 lg:mb-6 mt-2">
-                Validate your vision before you build.
+                Validate your idea and reduce uncertainty before you build.
               </p>
               <p className="com-text md:text-sm! lg:text-[16px]!">
-                Turn your idea into a high-fidelity prototype and test it with
-                real users — all in just 30 days. Our Design Sprint helps you
-                shape your concept, de-risk development, and gain clarity before
-                writing a single line of code. Your squad includes:
+                In a focused sprint we turn a concept into a high‑fidelity prototype, run moderated user tests, and deliver prioritized recommendations and a technical feasibility brief. The outcome: validated assumptions, a clear next roadmap, and confidence to move into development. Your sprint squad includes:
               </p>
             </div>
             {/* <!-- cart list --> */}
@@ -179,13 +176,10 @@ const WorkWithUs = () => {
                 Product Development
               </h3>
               <p className="text-secondary-text lg:text-lg mb-2 md:mb-3 lg:mb-6 mt-2">
-                Validate a prototype before you go all
+                Build, ship, and scale a product with a dedicated engineering squad.
               </p>
               <p className="com-text md:text-sm! lg:text-[16px]!">
-                Turn your vision into a high-fidelity prototype and learn how to
-                validate it with target users so you can master user testing
-                while deepening those connections. For most products, this
-                process takes just 30 days. Your squad includes:
+                From MVP to production, we deliver iterative releases with measurable outcomes. Our team handles planning, engineering, testing, and operations so you can focus on customers and growth. We emphasize maintainability, observability, and fast feedback loops. Your development squad includes:
               </p>
             </div>
             {/* <!-- cart list --> */}
