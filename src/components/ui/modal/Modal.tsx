@@ -82,7 +82,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary required"
                       />
                     </label>
-
                     {/* <!-- First name --> */}
                     <label
                       htmlFor="first_name"
@@ -101,7 +100,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary required"
                       />
                     </label>
-
                     {/* <!-- last name --> */}
                     <label
                       htmlFor="last_name"
@@ -115,7 +113,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
-
                     {/* <!-- email address --> */}
                     <label
                       htmlFor="email"
@@ -134,7 +131,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
-
                     {/* <!-- Phone number --> */}
                     <label
                       htmlFor="phone_number"
@@ -153,7 +149,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full h-10 bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary"
                       />
                     </label>
-
                     {/* What can NexRover do for you? */}
                     <div className="py-5">
                       <h5 className="text-primary-text">
@@ -230,7 +225,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         </label>
                       </div>
                     </div>
-
                     {/* text area 1*/}
                     <div>
                       <h4 className="text-sm md:text-[16px] leading-5">
@@ -242,7 +236,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-25 resize-none"
                       ></textarea>
                     </div>
-
                     {/* What is your budget? */}
                     <div className="py-5">
                       <h5 className="text-primary-text">
@@ -337,7 +330,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         </label>
                       </div>
                     </div>
-
                     {/* text area 2*/}
                     <div>
                       <h4 className="text-sm md:text-[16px] leading-5">
@@ -349,6 +341,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-10 resize-none"
                       ></textarea>
                     </div>
+                    1
                   </div>
 
                   {/* <!-- button --> */}
