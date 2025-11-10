@@ -151,7 +151,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                     </label>
                     {/* What can NexRover do for you? */}
                     <div className="py-5">
-                      <h5 className="text-primary-text">
+                      <h5 className="text-primary-text text-sm md:text-[16px] leading-5">
                         <span className=" relative">
                           What can NexRover do for you?
                           <span className="absolute top-0 -right-2.5 text-red-600 ">
@@ -171,7 +171,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="offer_1"
                             name="offer"
-                            value="a"
+                            value="Create an Amazing New Product"
                           />
                           <span className="text-gray-700">
                             Create an Amazing New Product
@@ -187,7 +187,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="offer_2"
                             name="offer"
-                            value="b"
+                            value="Make my great product even greater"
                           />
                           <span className="text-gray-700">
                             Make my great product even greater
@@ -203,7 +203,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="offer_3"
                             name="offer"
-                            value="b"
+                            value="Automate my QA and testing"
                           />
                           <span className="text-gray-700">
                             Automate my QA and testing
@@ -219,7 +219,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="offer_4"
                             name="offer"
-                            value="b"
+                            value="Something else"
                           />
                           <span className="text-gray-700">Something else</span>
                         </label>
@@ -238,7 +238,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                     </div>
                     {/* What is your budget? */}
                     <div className="py-5">
-                      <h5 className="text-primary-text">
+                      <h5 className="text-primary-text text-sm md:text-[16px] leading-5">
                         <span className=" relative">
                           What is your budget?
                           <span className="absolute top-0 -right-2.5 text-red-600 ">
@@ -258,7 +258,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="budget_1"
                             name="budget"
-                            value="a"
+                            value="Less than $50,000"
                           />
                           <span className="text-gray-700">
                             Less than $50,000
@@ -274,7 +274,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="budget_2"
                             name="budget"
-                            value="b"
+                            value=" $50,000 - $150,000"
                           />
                           <span className="text-gray-700">
                             $50,000 - $150,000
@@ -290,7 +290,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="budget_3"
                             name="budget"
-                            value="c"
+                            value="$150,000 - $350,000"
                           />
                           <span className="text-gray-700">
                             $150,000 - $350,000
@@ -306,7 +306,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="budget_4"
                             name="budget"
-                            value="d"
+                            value="$350,000 - $500,000"
                           />
                           <span className="text-gray-700">
                             $350,000 - $500,000
@@ -322,7 +322,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                             className="w-4 h-4"
                             id="budget_5"
                             name="budget"
-                            value="e"
+                            value="$500,000 or more"
                           />
                           <span className="text-gray-700">
                             $500,000 or more
@@ -341,7 +341,6 @@ const Modal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
                         className="w-full bg-secondary-bg mt-1.5 border border-border outline-0 p-2 text-sm focus:border focus:border-primary h-10 resize-none"
                       ></textarea>
                     </div>
-                    1
                   </div>
 
                   {/* <!-- button --> */}
