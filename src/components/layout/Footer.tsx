@@ -60,7 +60,7 @@ const Footer = () => {
             <h5 className="footer-col-title">Engagement Models</h5>
             <ul className="footer-col-link">
               <li className="text-sm text-secondary-text-dark hover:underline">
-                <a href="#">Dedicated Development Squad</a>
+                <a href="#">Dedicated Development Team</a>
               </li>
               <li className="text-sm text-secondary-text-dark hover:underline">
                 <a href="#">Product Strategy and Design</a>

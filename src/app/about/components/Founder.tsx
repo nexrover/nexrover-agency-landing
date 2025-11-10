@@ -70,7 +70,7 @@ const Founder = () => {
           <div>
             <div>
               <Image
-                src="/image/phil-alves-.webp"
+                src="/image/pervez-founder.JPG"
                 alt="image"
                 width={400}
                 height={400}

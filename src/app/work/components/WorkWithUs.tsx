@@ -76,7 +76,7 @@ const WorkWithUs = () => {
           {/* section heading */}
           <SectionHeading
             head="Two ways to work with Nexrover"
-            desc="Either way, you get a fully-managed squad of experts — strategists, designers, and developers working together with a proven process."
+            desc="Either way, you get a fully-managed team of experts — strategists, designers, and developers working together with a proven process."
             colorHead="primary-text"
             colorDesc="secondary-text"
             textAlign="center"
@@ -111,7 +111,7 @@ const WorkWithUs = () => {
                 Validate your idea and reduce uncertainty before you build.
               </p>
               <p className="com-text md:text-sm! lg:text-[16px]!">
-                In a focused sprint we turn a concept into a high‑fidelity prototype, run moderated user tests, and deliver prioritized recommendations and a technical feasibility brief. The outcome: validated assumptions, a clear next roadmap, and confidence to move into development. Your sprint squad includes:
+                In a focused sprint we turn a concept into a high‑fidelity prototype, run moderated user tests, and deliver prioritized recommendations and a technical feasibility brief. The outcome: validated assumptions, a clear next roadmap, and confidence to move into development. Your sprint team includes:
               </p>
             </div>
             {/* <!-- cart list --> */}
@@ -176,10 +176,10 @@ const WorkWithUs = () => {
                 Product Development
               </h3>
               <p className="text-secondary-text lg:text-lg mb-2 md:mb-3 lg:mb-6 mt-2">
-                Build, ship, and scale a product with a dedicated engineering squad.
+                Build, ship, and scale a product with a dedicated engineering team.
               </p>
               <p className="com-text md:text-sm! lg:text-[16px]!">
-                From MVP to production, we deliver iterative releases with measurable outcomes. Our team handles planning, engineering, testing, and operations so you can focus on customers and growth. We emphasize maintainability, observability, and fast feedback loops. Your development squad includes:
+                From MVP to production, we deliver iterative releases with measurable outcomes. Our team handles planning, engineering, testing, and operations so you can focus on customers and growth. We emphasize maintainability, observability, and fast feedback loops. Your development team includes:
               </p>
             </div>
             {/* <!-- cart list --> */}

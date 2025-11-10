@@ -26,13 +26,13 @@ const BehindScreen = () => {
       <div className="container mx-auto">
         <div className="wrapper flex flex-col lg:flex-row lg:justify-between items-center lg:gap-8">
           {/* <!-- left content-figure --> */}
-          <div className="max-w-[470px]">
+          <div className="max-w-[570px]">
             <Image
-              src="/image/behind.svg"
+              src="/image/loveWorking.png"
               alt="figure"
-              width={500}
-              height={500}
-              className="w-[350px] lg:w-[470px] h-auto  object-cover "
+              width={600}
+              height={600}
+              className="w-[450px] lg:w-[570px] h-auto  object-cover "
             />
           </div>
           {/* <!-- right content-article --> */}
